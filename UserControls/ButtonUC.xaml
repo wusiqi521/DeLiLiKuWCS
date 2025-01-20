@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="BMHRI.WCS.Server.UserControls.ButtonUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BMHRI.WCS.Server.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="80" d:DesignWidth="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.1*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <WrapPanel Grid.Column="1" Grid.Row="0" Orientation="Horizontal" >
+            <Label Content="用户名：" VerticalAlignment="Center" Margin="5"/>
+            <TextBox x:Name="UserNameTB" Width="80" VerticalAlignment="Center"  />
+            <Label Content="密 码：" VerticalAlignment="Center" Margin="5"/>
+            <PasswordBox x:Name="PasswordTB" Width="80" VerticalAlignment="Center" Margin="5"/>
+            <Label x:Name="AlarmLabel" Content="执行操作前请输入用户名和密码" 
+           Foreground="Red" Margin="5" VerticalAlignment="Center" Width="200"/>
+        </WrapPanel>
+        <Grid Grid.Column="1" Grid.Row="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="一键联机" Grid.Column="0"  Margin="5" Click="AllOnlineBT_Click"  Width="100" Height="30"/>
+            <Button Content="一键脱机" Grid.Column="1"  Margin="5" Click="AllOfflineBT_Click"  Width="100" Height="30" HorizontalAlignment="Left"/>
+        </Grid>
+    </Grid>
+</UserControl>

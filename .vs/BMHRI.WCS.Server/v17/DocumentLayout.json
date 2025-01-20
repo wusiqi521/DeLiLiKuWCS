@@ -1,0 +1,1465 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\senceuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\senceuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\senceuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\senceuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\ddjuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\ddjuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\ssjuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\ssjuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\devicemanageruc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\devicemanageruc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\ssjuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\ssjuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\userwindows\\ssjblockoptionwindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:userwindows\\ssjblockoptionwindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\wmswebapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\wmswebapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\ssjdeviceblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\ssjdeviceblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\ssjdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\ssjdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\ddjdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\ddjdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\configure\\plc_set.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:configure\\plc_set.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\webapi\\controllers\\taskcreatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:webapi\\controllers\\taskcreatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\aboutusuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\aboutusuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\aboutusuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\aboutusuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\userwindows\\ssjblockoptionwindows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:userwindows\\ssjblockoptionwindows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\senceuc_4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\senceuc_4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\senceuc_3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\senceuc_3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\configure\\ssj_block.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:configure\\ssj_block.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\senceuc_4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\senceuc_4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\led.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\led.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\chainmui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\chainmui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\wcstaskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\wcstaskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\senceuc_2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\senceuc_2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\styles\\tabcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:styles\\tabcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\styles\\tabitemclose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:styles\\tabitemclose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\buttonuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\buttonuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\ddjuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\ddjuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\led.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\led.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\senceuc_3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\senceuc_3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\senceuc_2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\senceuc_2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\chainmui.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\chainmui.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\userwindows\\wmstaskoptionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:userwindows\\wmstaskoptionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\wmstasksmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\wmstasksmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\wmstask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\wmstask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\userwindows\\wmstaskoptionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:userwindows\\wmstaskoptionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\userwindows\\wmsmessagedetailwindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:userwindows\\wmsmessagedetailwindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\wmsuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\wmsuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\systemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\systemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\wmsuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\wmsuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\wmsdbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\wmsdbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\buttonuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\buttonuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\goodslocationmanageruc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\goodslocationmanageruc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\goodslocationmanageruc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\goodslocationmanageruc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\sqlserverdevicemsgqueryuc .xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\sqlserverdevicemsgqueryuc .xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\wmstaskcreateuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\wmstaskcreateuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\wmstaskcreateuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\wmstaskcreateuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\senceucmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\senceucmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\userwindows\\devicemessagedetailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:userwindows\\devicemessagedetailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\devicemanageruc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\devicemanageruc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\usermanageruc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\usermanageruc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\ssjmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\ssjmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\userwindows\\ddjdetailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:userwindows\\ddjdetailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\userwindows\\ddjdetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:userwindows\\ddjdetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\ddjprotocol\\ddjmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:ddjprotocol\\ddjmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\configure\\ddj_data.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:configure\\ddj_data.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\wcstask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\wcstask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\goodslocationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\goodslocationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\dematicddjmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\dematicddjmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\wmstaskuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\wmstaskuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\userwindows\\ssjdetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:userwindows\\ssjdetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\userwindows\\ssjdetailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:userwindows\\ssjdetailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\userwindows\\devicemessagedetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:userwindows\\devicemessagedetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\goodlocationuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\goodlocationuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\plcdevicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\plcdevicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\wcsprotocal\\wcsmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:wcsprotocal\\wcsmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\fzjuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\fzjuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\userwindows\\wcstaskoptionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:userwindows\\wcstaskoptionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\webapi\\controllers\\releaseagvpositioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:webapi\\controllers\\releaseagvpositioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\xztdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\xztdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\tsjdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\tsjdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\rgvdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\rgvdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\cdjdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\cdjdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\userwindows\\wmsmessagedetailwindows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:userwindows\\wmsmessagedetailwindows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\webapi\\controllers\\taskcancelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:webapi\\controllers\\taskcancelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\models\\wmsmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\wmsmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\goodlocationuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\goodlocationuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\webapi\\controllers\\agvmovetaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:webapi\\controllers\\agvmovetaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\goodslocationmapuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\goodslocationmapuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\goodsloactionuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\goodsloactionuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\goodsloactionuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\goodsloactionuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\usercontrols\\goodslocationmapuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:usercontrols\\goodslocationmapuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|e:\\bmh\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93wcs\u7A0B\u5E8F0111\\bmhri.wcs.server.20240401\\bmhri.wcs.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:bmhri.wcs.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WMSWebApiClient.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\WMSWebApiClient.cs",
+              "RelativeDocumentMoniker": "Models\\WMSWebApiClient.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\WMSWebApiClient.cs",
+              "RelativeToolTip": "Models\\WMSWebApiClient.cs",
+              "ViewState": "AQIAAEwCAAAAAAAAAAAAwGcCAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T03:10:08.109Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaskCreateController.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\WebApi\\Controllers\\TaskCreateController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\TaskCreateController.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\WebApi\\Controllers\\TaskCreateController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\TaskCreateController.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAkwKUAAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:55:12.076Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{33c88fe3-43b3-374e-9aac-c4679036dce0}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SSJUC.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SSJUC.xaml",
+              "RelativeDocumentMoniker": "UserControls\\SSJUC.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SSJUC.xaml",
+              "RelativeToolTip": "UserControls\\SSJUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-20T06:08:04.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeviceManagerUC.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\DeviceManagerUC.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\DeviceManagerUC.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\DeviceManagerUC.xaml.cs",
+              "RelativeToolTip": "UserControls\\DeviceManagerUC.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAASwCMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T06:22:08.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SSJBlockOptionWindows.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\SSJBlockOptionWindows.xaml",
+              "RelativeDocumentMoniker": "UserWindows\\SSJBlockOptionWindows.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\SSJBlockOptionWindows.xaml",
+              "RelativeToolTip": "UserWindows\\SSJBlockOptionWindows.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-09T04:10:22.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SSJUC.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SSJUC.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\SSJUC.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SSJUC.xaml.cs",
+              "RelativeToolTip": "UserControls\\SSJUC.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvw4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T02:48:51.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAkwFEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T07:06:37.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SenceUC.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\SenceUC.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC.xaml.cs",
+              "RelativeToolTip": "UserControls\\SenceUC.xaml.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAgwFgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T04:34:04.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SenceUC.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC.xaml",
+              "RelativeDocumentMoniker": "UserControls\\SenceUC.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC.xaml",
+              "RelativeToolTip": "UserControls\\SenceUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-19T02:01:55.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SSJDevice.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\SSJDevice.cs",
+              "RelativeDocumentMoniker": "Models\\SSJDevice.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\SSJDevice.cs",
+              "RelativeToolTip": "Models\\SSJDevice.cs",
+              "ViewState": "AQIAAPwAAAAAAAAAAAAYwCUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T02:29:02.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SSJDeviceBlock.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\SSJDeviceBlock.cs",
+              "RelativeDocumentMoniker": "Models\\SSJDeviceBlock.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\SSJDeviceBlock.cs",
+              "RelativeToolTip": "Models\\SSJDeviceBlock.cs",
+              "ViewState": "AQIAAIsCAAAAAAAAAADgv54CAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T05:41:20.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DDJDevice.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\DDJDevice.cs",
+              "RelativeDocumentMoniker": "Models\\DDJDevice.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\DDJDevice.cs",
+              "RelativeToolTip": "Models\\DDJDevice.cs",
+              "ViewState": "AQIAAMkCAAAAAAAAAAAkwNMCAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T05:26:07.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DDJUC.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\DDJUC.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\DDJUC.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\DDJUC.xaml.cs",
+              "RelativeToolTip": "UserControls\\DDJUC.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T06:22:13.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PLC_Set.config",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Configure\\PLC_Set.config",
+              "RelativeDocumentMoniker": "Configure\\PLC_Set.config",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Configure\\PLC_Set.config",
+              "RelativeToolTip": "Configure\\PLC_Set.config",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvykAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-20T02:00:27.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SenceUC_4.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC_4.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\SenceUC_4.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC_4.xaml.cs",
+              "RelativeToolTip": "UserControls\\SenceUC_4.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwHYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:25:44.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SenceUC_4.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC_4.xaml",
+              "RelativeDocumentMoniker": "UserControls\\SenceUC_4.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC_4.xaml",
+              "RelativeToolTip": "UserControls\\SenceUC_4.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-28T13:25:54.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AboutUSUC.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\AboutUSUC.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\AboutUSUC.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\AboutUSUC.xaml.cs",
+              "RelativeToolTip": "UserControls\\AboutUSUC.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T01:17:46.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AboutUSUC.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\AboutUSUC.xaml",
+              "RelativeDocumentMoniker": "UserControls\\AboutUSUC.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\AboutUSUC.xaml",
+              "RelativeToolTip": "UserControls\\AboutUSUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-20T01:18:05.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SSJBlockOptionWindows.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\SSJBlockOptionWindows.xaml.cs",
+              "RelativeDocumentMoniker": "UserWindows\\SSJBlockOptionWindows.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\SSJBlockOptionWindows.xaml.cs",
+              "RelativeToolTip": "UserWindows\\SSJBlockOptionWindows.xaml.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAQwJAAAADNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T08:43:26.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SenceUC_3.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC_3.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\SenceUC_3.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC_3.xaml.cs",
+              "RelativeToolTip": "UserControls\\SenceUC_3.xaml.cs",
+              "ViewState": "AQIAANUAAAAAAAAAAAAQwPQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T04:45:11.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WCSTaskManager.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\WCSTaskManager.cs",
+              "RelativeDocumentMoniker": "Models\\WCSTaskManager.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\WCSTaskManager.cs",
+              "RelativeToolTip": "Models\\WCSTaskManager.cs",
+              "ViewState": "AQIAAAICAAAAAAAAAAAUwBcCAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:24:54.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChainMUI.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\ChainMUI.xaml",
+              "RelativeDocumentMoniker": "UserControls\\ChainMUI.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\ChainMUI.xaml",
+              "RelativeToolTip": "UserControls\\ChainMUI.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-31T07:14:17.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SSJ_Block.config",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Configure\\SSJ_Block.config",
+              "RelativeDocumentMoniker": "Configure\\SSJ_Block.config",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Configure\\SSJ_Block.config",
+              "RelativeToolTip": "Configure\\SSJ_Block.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-27T16:52:55.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Led.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\Led.xaml",
+              "RelativeDocumentMoniker": "UserControls\\Led.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\Led.xaml",
+              "RelativeToolTip": "UserControls\\Led.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T14:41:32.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ChainMUI.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\ChainMUI.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\ChainMUI.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\ChainMUI.xaml.cs",
+              "RelativeToolTip": "UserControls\\ChainMUI.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:14:20.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SenceUC_2.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC_2.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\SenceUC_2.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC_2.xaml.cs",
+              "RelativeToolTip": "UserControls\\SenceUC_2.xaml.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAkwHsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T04:34:51.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TabControl.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Styles\\TabControl.xaml",
+              "RelativeDocumentMoniker": "Styles\\TabControl.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Styles\\TabControl.xaml",
+              "RelativeToolTip": "Styles\\TabControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-17T15:51:14.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "WMSMessageDetailWindows.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\WMSMessageDetailWindows.xaml",
+              "RelativeDocumentMoniker": "UserWindows\\WMSMessageDetailWindows.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\WMSMessageDetailWindows.xaml",
+              "RelativeToolTip": "UserWindows\\WMSMessageDetailWindows.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-03T05:30:59.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ButtonUC.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\ButtonUC.xaml",
+              "RelativeDocumentMoniker": "UserControls\\ButtonUC.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\ButtonUC.xaml",
+              "RelativeToolTip": "UserControls\\ButtonUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-17T16:13:48.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-19T05:47:08.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Button.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Styles\\Button.xaml",
+              "RelativeDocumentMoniker": "Styles\\Button.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Styles\\Button.xaml",
+              "RelativeToolTip": "Styles\\Button.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-19T06:28:59.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TabItemClose.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Styles\\TabItemClose.cs",
+              "RelativeDocumentMoniker": "Styles\\TabItemClose.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Styles\\TabItemClose.cs",
+              "RelativeToolTip": "Styles\\TabItemClose.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T06:29:10.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "WMSTaskOptionWindow.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\WMSTaskOptionWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UserWindows\\WMSTaskOptionWindow.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\WMSTaskOptionWindow.xaml.cs",
+              "RelativeToolTip": "UserWindows\\WMSTaskOptionWindow.xaml.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAA6wIsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T16:21:34.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Led.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\Led.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\Led.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\Led.xaml.cs",
+              "RelativeToolTip": "UserControls\\Led.xaml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAcwCEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T14:45:52.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DDJUC.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\DDJUC.xaml",
+              "RelativeDocumentMoniker": "UserControls\\DDJUC.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\DDJUC.xaml",
+              "RelativeToolTip": "UserControls\\DDJUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T15:24:54.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SenceUC_2.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC_2.xaml",
+              "RelativeDocumentMoniker": "UserControls\\SenceUC_2.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC_2.xaml",
+              "RelativeToolTip": "UserControls\\SenceUC_2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T04:34:48.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SenceUC_3.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC_3.xaml",
+              "RelativeDocumentMoniker": "UserControls\\SenceUC_3.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUC_3.xaml",
+              "RelativeToolTip": "UserControls\\SenceUC_3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T04:45:09.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\BaseModel.cs",
+              "RelativeDocumentMoniker": "Models\\BaseModel.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\BaseModel.cs",
+              "RelativeToolTip": "Models\\BaseModel.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAiwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T14:57:17.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "WMSTask.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\WMSTask.cs",
+              "RelativeDocumentMoniker": "Models\\WMSTask.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\WMSTask.cs",
+              "RelativeToolTip": "Models\\WMSTask.cs",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAqwMcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T14:18:08.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T10:50:52.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "WMSTasksManager.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\WMSTasksManager.cs",
+              "RelativeDocumentMoniker": "Models\\WMSTasksManager.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\WMSTasksManager.cs",
+              "RelativeToolTip": "Models\\WMSTasksManager.cs",
+              "ViewState": "AQIAAPcAAAAAAAAAAAAiwAUBAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T03:10:02.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "WMSTaskOptionWindow.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\WMSTaskOptionWindow.xaml",
+              "RelativeDocumentMoniker": "UserWindows\\WMSTaskOptionWindow.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\WMSTaskOptionWindow.xaml",
+              "RelativeToolTip": "UserWindows\\WMSTaskOptionWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T11:21:21.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-02T05:21:17.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "WMSUC.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\WMSUC.xaml",
+              "RelativeDocumentMoniker": "UserControls\\WMSUC.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\WMSUC.xaml",
+              "RelativeToolTip": "UserControls\\WMSUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-17T17:13:26.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "WMSUC.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\WMSUC.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\WMSUC.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\WMSUC.xaml.cs",
+              "RelativeToolTip": "UserControls\\WMSUC.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T16:09:31.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SystemManager.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\SystemManager.cs",
+              "RelativeDocumentMoniker": "Models\\SystemManager.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\SystemManager.cs",
+              "RelativeToolTip": "Models\\SystemManager.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAiwDsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T17:19:19.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "WMSDBManager.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\WMSDBManager.cs",
+              "RelativeDocumentMoniker": "Models\\WMSDBManager.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\WMSDBManager.cs",
+              "RelativeToolTip": "Models\\WMSDBManager.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAuwFEAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T04:52:14.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "GoodsLocationManagerUC.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodsLocationManagerUC.xaml",
+              "RelativeDocumentMoniker": "UserControls\\GoodsLocationManagerUC.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodsLocationManagerUC.xaml",
+              "RelativeToolTip": "UserControls\\GoodsLocationManagerUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-30T05:50:08.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ButtonUC.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\ButtonUC.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\ButtonUC.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\ButtonUC.xaml.cs",
+              "RelativeToolTip": "UserControls\\ButtonUC.xaml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAqwDYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T16:14:30.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GoodsLocationManagerUC.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodsLocationManagerUC.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\GoodsLocationManagerUC.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodsLocationManagerUC.xaml.cs",
+              "RelativeToolTip": "UserControls\\GoodsLocationManagerUC.xaml.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAkwF8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T05:50:24.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "SQLServerDeviceMsgQueryUC .xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SQLServerDeviceMsgQueryUC .xaml",
+              "RelativeDocumentMoniker": "UserControls\\SQLServerDeviceMsgQueryUC .xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SQLServerDeviceMsgQueryUC .xaml",
+              "RelativeToolTip": "UserControls\\SQLServerDeviceMsgQueryUC .xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-17T17:36:31.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "WMSTaskCreateUC.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\WMSTaskCreateUC.xaml",
+              "RelativeDocumentMoniker": "UserControls\\WMSTaskCreateUC.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\WMSTaskCreateUC.xaml",
+              "RelativeToolTip": "UserControls\\WMSTaskCreateUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-13T13:07:57.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "WMSTaskCreateUC.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\WMSTaskCreateUC.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\WMSTaskCreateUC.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\WMSTaskCreateUC.xaml.cs",
+              "RelativeToolTip": "UserControls\\WMSTaskCreateUC.xaml.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAYwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T13:07:55.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SenceUCMain.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUCMain.xaml",
+              "RelativeDocumentMoniker": "UserControls\\SenceUCMain.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\SenceUCMain.xaml",
+              "RelativeToolTip": "UserControls\\SenceUCMain.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-17T17:15:32.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DeviceMessageDetailWindow.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\DeviceMessageDetailWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UserWindows\\DeviceMessageDetailWindow.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\DeviceMessageDetailWindow.xaml.cs",
+              "RelativeToolTip": "UserWindows\\DeviceMessageDetailWindow.xaml.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAswGYAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T18:43:10.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "UserManagerUC.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\UserManagerUC.xaml",
+              "RelativeDocumentMoniker": "UserControls\\UserManagerUC.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\UserManagerUC.xaml",
+              "RelativeToolTip": "UserControls\\UserManagerUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-30T09:03:42.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "DeviceManagerUC.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\DeviceManagerUC.xaml",
+              "RelativeDocumentMoniker": "UserControls\\DeviceManagerUC.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\DeviceManagerUC.xaml",
+              "RelativeToolTip": "UserControls\\DeviceManagerUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-30T09:03:21.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "DDJDetailWindow.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\DDJDetailWindow.xaml",
+              "RelativeDocumentMoniker": "UserWindows\\DDJDetailWindow.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\DDJDetailWindow.xaml",
+              "RelativeToolTip": "UserWindows\\DDJDetailWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T05:15:37.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "SSJMessage.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\SSJMessage.cs",
+              "RelativeDocumentMoniker": "Models\\SSJMessage.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\SSJMessage.cs",
+              "RelativeToolTip": "Models\\SSJMessage.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAowFEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T01:54:00.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "DDJMessage.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\DDJProtocol\\DDJMessage.cs",
+              "RelativeDocumentMoniker": "DDJProtocol\\DDJMessage.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\DDJProtocol\\DDJMessage.cs",
+              "RelativeToolTip": "DDJProtocol\\DDJMessage.cs",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAtwGEBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T09:01:41.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "DDJDetailWindow.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\DDJDetailWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UserWindows\\DDJDetailWindow.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\DDJDetailWindow.xaml.cs",
+              "RelativeToolTip": "UserWindows\\DDJDetailWindow.xaml.cs",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAtwMEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T06:10:22.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "DDJ_Data.config",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Configure\\DDJ_Data.config",
+              "RelativeDocumentMoniker": "Configure\\DDJ_Data.config",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Configure\\DDJ_Data.config",
+              "RelativeToolTip": "Configure\\DDJ_Data.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-03T13:53:46.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "WCSTask.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\WCSTask.cs",
+              "RelativeDocumentMoniker": "Models\\WCSTask.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\WCSTask.cs",
+              "RelativeToolTip": "Models\\WCSTask.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA0wBgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T05:54:35.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "GoodsLocationManager.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\GoodsLocationManager.cs",
+              "RelativeDocumentMoniker": "Models\\GoodsLocationManager.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\GoodsLocationManager.cs",
+              "RelativeToolTip": "Models\\GoodsLocationManager.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwD8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T00:14:38.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "WMSTaskUC.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\WMSTaskUC.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\WMSTaskUC.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\WMSTaskUC.xaml.cs",
+              "RelativeToolTip": "UserControls\\WMSTaskUC.xaml.cs",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAowK0AAAAWAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T05:33:18.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "DeMaticDDJManager.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\DeMaticDDJManager.cs",
+              "RelativeDocumentMoniker": "Models\\DeMaticDDJManager.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\DeMaticDDJManager.cs",
+              "RelativeToolTip": "Models\\DeMaticDDJManager.cs",
+              "ViewState": "AQIAAE4DAAAAAAAAAABIwFEDAABxAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T16:37:19.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "SSJDetailWindow.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\SSJDetailWindow.xaml",
+              "RelativeDocumentMoniker": "UserWindows\\SSJDetailWindow.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\SSJDetailWindow.xaml",
+              "RelativeToolTip": "UserWindows\\SSJDetailWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-08T16:51:03.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "SSJDetailWindow.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\SSJDetailWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UserWindows\\SSJDetailWindow.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\SSJDetailWindow.xaml.cs",
+              "RelativeToolTip": "UserWindows\\SSJDetailWindow.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAYwEEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T00:11:27.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "DeviceMessageDetailWindow.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\DeviceMessageDetailWindow.xaml",
+              "RelativeDocumentMoniker": "UserWindows\\DeviceMessageDetailWindow.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\DeviceMessageDetailWindow.xaml",
+              "RelativeToolTip": "UserWindows\\DeviceMessageDetailWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-10T14:50:45.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "GoodLocationUC.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodLocationUC.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\GoodLocationUC.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodLocationUC.xaml.cs",
+              "RelativeToolTip": "UserControls\\GoodLocationUC.xaml.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAswA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:55:34.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "PLCDeviceManager.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\PLCDeviceManager.cs",
+              "RelativeDocumentMoniker": "Models\\PLCDeviceManager.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\PLCDeviceManager.cs",
+              "RelativeToolTip": "Models\\PLCDeviceManager.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAASwBgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T15:41:22.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "WCSMessage.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\WCSProtocal\\WCSMessage.cs",
+              "RelativeDocumentMoniker": "WCSProtocal\\WCSMessage.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\WCSProtocal\\WCSMessage.cs",
+              "RelativeToolTip": "WCSProtocal\\WCSMessage.cs",
+              "ViewState": "AQIAANkAAAAAAAAAAAAWwPIAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:21:45.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "FZJUC.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\FZJUC.xaml",
+              "RelativeDocumentMoniker": "UserControls\\FZJUC.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\FZJUC.xaml",
+              "RelativeToolTip": "UserControls\\FZJUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-08T03:19:17.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "WCSTaskOptionWindow.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\WCSTaskOptionWindow.xaml",
+              "RelativeDocumentMoniker": "UserWindows\\WCSTaskOptionWindow.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\WCSTaskOptionWindow.xaml",
+              "RelativeToolTip": "UserWindows\\WCSTaskOptionWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-03T05:30:55.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ReleaseAGVPositionController.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\WebApi\\Controllers\\ReleaseAGVPositionController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ReleaseAGVPositionController.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\WebApi\\Controllers\\ReleaseAGVPositionController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ReleaseAGVPositionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T16:43:09.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "XZTDevice.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\XZTDevice.cs",
+              "RelativeDocumentMoniker": "Models\\XZTDevice.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\XZTDevice.cs",
+              "RelativeToolTip": "Models\\XZTDevice.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAABYwIkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T07:28:05.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "CDJDevice.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\CDJDevice.cs",
+              "RelativeDocumentMoniker": "Models\\CDJDevice.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\CDJDevice.cs",
+              "RelativeToolTip": "Models\\CDJDevice.cs",
+              "ViewState": "AQIAAKAAAAAAAAAAAABYwKYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T07:27:51.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "RGVDevice.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\RGVDevice.cs",
+              "RelativeDocumentMoniker": "Models\\RGVDevice.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\RGVDevice.cs",
+              "RelativeToolTip": "Models\\RGVDevice.cs",
+              "ViewState": "AQIAAOAAAAAAAAAAAAAEwPYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T07:27:56.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "TSJDevice.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\TSJDevice.cs",
+              "RelativeDocumentMoniker": "Models\\TSJDevice.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\TSJDevice.cs",
+              "RelativeToolTip": "Models\\TSJDevice.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAABYwIkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T07:28:00.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "WMSMessageDetailWindows.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\WMSMessageDetailWindows.xaml.cs",
+              "RelativeDocumentMoniker": "UserWindows\\WMSMessageDetailWindows.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserWindows\\WMSMessageDetailWindows.xaml.cs",
+              "RelativeToolTip": "UserWindows\\WMSMessageDetailWindows.xaml.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAABYwC4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:14:07.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "TaskCancelController.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\WebApi\\Controllers\\TaskCancelController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\TaskCancelController.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\WebApi\\Controllers\\TaskCancelController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\TaskCancelController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwCgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:11:55.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "WMSMessage.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\WMSMessage.cs",
+              "RelativeDocumentMoniker": "Models\\WMSMessage.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\Models\\WMSMessage.cs",
+              "RelativeToolTip": "Models\\WMSMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T07:09:12.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "GoodLocationUC.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodLocationUC.xaml",
+              "RelativeDocumentMoniker": "UserControls\\GoodLocationUC.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodLocationUC.xaml",
+              "RelativeToolTip": "UserControls\\GoodLocationUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-01T05:06:46.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "AGVMoveTaskController.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\WebApi\\Controllers\\AGVMoveTaskController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\AGVMoveTaskController.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\WebApi\\Controllers\\AGVMoveTaskController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\AGVMoveTaskController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAiwEYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:06:34.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "GoodsLocationMapUC.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodsLocationMapUC.xaml",
+              "RelativeDocumentMoniker": "UserControls\\GoodsLocationMapUC.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodsLocationMapUC.xaml",
+              "RelativeToolTip": "UserControls\\GoodsLocationMapUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-30T05:50:14.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "GoodsLoactionUC.xaml",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodsLoactionUC.xaml",
+              "RelativeDocumentMoniker": "UserControls\\GoodsLoactionUC.xaml",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodsLoactionUC.xaml",
+              "RelativeToolTip": "UserControls\\GoodsLoactionUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-30T07:21:45.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "GoodsLocationMapUC.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodsLocationMapUC.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\GoodsLocationMapUC.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodsLocationMapUC.xaml.cs",
+              "RelativeToolTip": "UserControls\\GoodsLocationMapUC.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAcwD0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T05:36:41.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "GoodsLoactionUC.xaml.cs",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodsLoactionUC.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\GoodsLoactionUC.xaml.cs",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\UserControls\\GoodsLoactionUC.xaml.cs",
+              "RelativeToolTip": "UserControls\\GoodsLoactionUC.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T07:23:36.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "BMHRI.WCS.Server",
+              "DocumentMoniker": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\BMHRI.WCS.Server.csproj",
+              "RelativeDocumentMoniker": "BMHRI.WCS.Server.csproj",
+              "ToolTip": "E:\\BMH\\2024\\\u5F97\u529B\\1228\u5F97\u529B\u73B0\u573A\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F\\\u5F97\u529B\u7ACB\u5E93WCS\u7A0B\u5E8F0111\\BMHRI.WCS.Server.20240401\\BMHRI.WCS.Server.csproj",
+              "RelativeToolTip": "BMHRI.WCS.Server.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-30T02:02:33.582Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 178,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+﻿<Window x:Class="BMHRI.WCS.Server.UserWindows.DDJDetailWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:valueConverter="clr-namespace:BMHRI.WCS.Server.ValueConverter"
+        xmlns:S7Net="clr-namespace:S7.Net;assembly=S7.Net"
+        xmlns:local="clr-namespace:BMHRI.WCS.Server.UserControls"
+        mc:Ignorable="d"
+        Title="堆垛机"  Width="600" WindowStyle="ToolWindow" Loaded="Window_Loaded" SizeToContent="Height">
+    <Window.Resources>
+        <valueConverter:DataItemValueToString x:Key="pvvToString"/>
+        <valueConverter:F20ToValueConverter x:Key="F20ToValueConverter"/>
+        <valueConverter:F21ToValueConverter x:Key="F21ToValueConverter"/>
+        <valueConverter:F19ToValueConverter x:Key="F19ToValueConverter"/>
+        <valueConverter:IndexConverter x:Key="MyIndexConverter"/>
+        <ObjectDataProvider x:Key="DataTypeList" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="S7Net:DataType"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <ObjectDataProvider x:Key="VarTypeList" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="S7Net:VarType"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+    <Grid Background="#FFFFFBFB">
+        <StackPanel Margin="10">
+            <GroupBox Header="设备状态" Margin="0,5">
+                <WrapPanel>
+                    <Label Content="名   称："/>
+                    <Label MinWidth="100" Content="{Binding PLCDecription}"/>
+                    <Label Content="PLC类型："/>
+                    <Label MinWidth="50" Content="{Binding CpuType}"/>
+                    <Label Content="机架号："/>
+                    <Label MinWidth="30" Content="{Binding Rack}"/>
+                    <Label  Content="IP地址：" VerticalAlignment="Center"/>
+                    <TextBox MinWidth="100" Text="{Binding IP}" VerticalAlignment="Center"/>
+                    <Label Content="插槽号："/>
+                    <Label MinWidth="30" Content="{Binding Slot}"/>
+                    <Label Content="设备编号："/>
+                    <Label MinWidth="50" Content="{Binding PLCID}"/>
+                    <Label Content="网络状态："/>
+                    <Label MinWidth="50" Content="{Binding PLCConnectState}"/>
+                    <Label Content="工作状态："/>
+                    <Label MinWidth="60" Content="{Binding DDJWorkState}"/>
+                    <Label Content="是否可用："/>
+                    <Label MinWidth="30" Content="{Binding Available}"/>
+                    <!--<Label Content="是否测试状态："/>
+                    <Label MinWidth="30" Content="{Binding IsAutoTest}"/>-->
+                    <Label Content="水平位置："/>
+                    <Label MinWidth="30" Content="{Binding MotionPosition}"/>
+                    <Label Content="升降高度："/>
+                    <Label MinWidth="30" Content="{Binding LiftingPosition}"/>
+                    <!--<Label Content="水平停准："/>
+                    <Label MinWidth="30" Content="{Binding MotionRank}"/>-->
+                    <!--<Label Content="升降停准："/>
+                    <Label MinWidth="30" Content="{Binding LiftLayer}"/>-->
+                    <Label Content="货叉位置："/>
+                    <Label MinWidth="30" Content="{Binding ForkPosition}"/>
+                    <Label Content="是否有盘："/>
+                    <Label MinWidth="40" Content="{Binding HasPallet}"/>
+                    <Label Content="托盘号："/>
+                    <Label MinWidth="80" Content="{Binding PalletNum}"/>
+                    <Label Content="故障代码："/>
+                    <Label MinWidth="50" Content="{Binding FaultCode}" Foreground="Red"/>
+                    <Label Content="故障内容："/>
+                    <Label MinWidth="80" Content="{Binding FaultContent}" Foreground="Red"/>
+                    <Label Content="CannotDo："/>
+                    <Label MinWidth="80" Content="{Binding CannotDo}" Foreground="Red"/>
+                    <!--<Button Visibility="{Binding FaultCode, Converter={StaticResource F19ToValueConverter},ConverterParameter=Visible, FallbackValue=Collapsed}" Content="空取确认" Margin="10,5" HorizontalAlignment="Center" VerticalAlignment="Center" Click="F19Confirm_Click" Width="80" Height="30" Background="Red" Foreground="White"/>
+                    <Button Visibility="{Binding FaultCode, Converter={StaticResource F20ToValueConverter},ConverterParameter=Visible, FallbackValue=Collapsed}" Content="空出确认" Margin="10,5" HorizontalAlignment="Center" VerticalAlignment="Center" Click="F20Confirm_Click" Width="80" Height="30" Background="Red" Foreground="White"/>
+                    <Button Visibility="{Binding FaultCodes, Converter={StaticResource F21ToValueConverter},ConverterParameter=Visible, FallbackValue=Collapsed}" Content="双重确认" Margin="10,5" HorizontalAlignment="Center" VerticalAlignment="Center" Click="F21Confirm_Click" Width="80" Height="30" Background="Red" Foreground="White"/>-->
+                </WrapPanel>
+            </GroupBox>
+            <GroupBox Header="设备操作" Margin="0,5">
+                <WrapPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10,5">
+                        <Label Content="WCS TO PLC DB4 : " HorizontalAlignment="Right" />
+                        <Label MinWidth="300" Content="{Binding WCSTOPLCDB4}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10,5">
+                        <Label Content="PLC TO WCS DB5 : " HorizontalAlignment="Right" />
+                        <Label MinWidth="300" Content="{Binding PLCTOWCSDB5}"/>
+                    </StackPanel>
+                    <WrapPanel Orientation="Horizontal"  HorizontalAlignment="Left"  Margin="10,5">
+                        <Button Content="连接网络"   Margin="5" Click="ConnectBT_Click" Width="80" Height="30"/>
+                        <Button Content="断开网络"   Margin="5" Click="ConnectBT_Click" Width="80" Height="30"/>
+                        <Button Content="联机"   Margin="5" Click="OnlineBT_Click" Width="80" Height="30"/>
+                        <Button Content="脱机"   Margin="5" Click="OfflineBT_Click" Width="80" Height="30"/>
+                        <Button Content="故障解除"   Margin="5" Click="RecallInPlaceBT_Click" Width="80" Height="30"/>
+                        <Button Content="DB4清零"   Margin="5" Click="ClearDB400BT_Click" Width="80" Height="30"/>
+                        <Button Content="DB5清零"   Margin="5" Click="ClearDB500BT_Click" Width="80" Height="30"/>
+                        <Button x:Name="FloorRecallButton1" Content="一楼南召回"   Margin="5" Click="RecallBT_Click" Width="80" Height="30"/>
+                        <Button x:Name="FloorRecallButton2" Content="二楼南召回"   Margin="5" Click="RecallBT_Click" Width="80" Height="30"/>
+                        <Button x:Name="FloorRecallButton3" Content="一楼北召回"   Margin="5" Click="RecallBT_Click" Width="80" Height="30"/>
+                        <Button x:Name="FloorRecallButton4" Content="二楼北召回"   Margin="5" Click="RecallBT_Click" Width="80" Height="30"/>
+                        <Button x:Name="FloorRecallButton5" Content="三楼北召回"   Margin="5" Click="RecallBT_Click" Width="80" Height="30"/>
+                        <Button x:Name="FloorRecallButton6" Content="三楼南召回"   Margin="5" Click="RecallBT_Click" Width="80" Height="30"/>
+                        <Button x:Name="RecallButton" Content="模具库堆垛机召回"   Margin="5" Click="RecallBT_Click" Width="100" Height="30"/>
+                        <Button Content="准备进入巷道" Background="Red" Foreground="White" Grid.Row="2" Margin="5" Click="UnavailabilityBT_Click" HorizontalAlignment="Right" Width="80" Height="30"/>
+                        <Button x:Name="send0j" Background="Red"  Content="安全门打开" Foreground="White"  Margin="5" Click="send0j_Click" Width="80" Height="30"/>
+                        
+                        <Button Content="设备可用"  Grid.Row="2" Margin="5" Click="AvailabilityBT_Click" HorizontalAlignment="Right" Width="80" Height="30" Background="Green" Foreground="White"/>
+                    </WrapPanel>
+                </WrapPanel>
+            </GroupBox>
+        </StackPanel>
+    </Grid>
+</Window>

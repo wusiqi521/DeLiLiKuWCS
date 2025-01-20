@@ -1,0 +1,20 @@
+﻿BMHRI.WCS.Server
+
+
+winexe
+C#
+.cs
+E:\BMH\2024\得力\1228得力现场\得力立库WCS程序\得力立库WCS程序0111\BMHRI.WCS.Server.20240401\obj\Debug\net6.0-windows\
+BMHRI.WCS.Server
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+E:\BMH\2024\得力\1228得力现场\得力立库WCS程序\得力立库WCS程序0111\BMHRI.WCS.Server.20240401\App.xaml
+58-128735938
+12112662615
+126-675342516
+336907527264
+CustomWindow.xaml;MainWindow.xaml;Styles\Button.xaml;Styles\TabControl.xaml;UserControls\AboutUSUC.xaml;UserControls\AgvPositionLayerListUC.xaml;UserControls\AgvPositionListUC.xaml;UserControls\ButtonUC.xaml;UserControls\ChainMUI.xaml;UserControls\DDJUC.xaml;UserControls\DeviceManagerUC.xaml;UserControls\DmDDJUC.xaml;UserControls\FZJUC.xaml;UserControls\GoodLocationUC.xaml;UserControls\GoodsLoactionUC.xaml;UserControls\GoodsLocationManagerUC.xaml;UserControls\GoodsLocationMapUC.xaml;UserControls\Led.xaml;UserControls\PalletPlaceUC.xaml;UserControls\RGVRailWayUI.xaml;UserControls\RGVRailWayVerticalUI.xaml;UserControls\RGVUI.xaml;UserControls\RollerMUI.xaml;UserControls\SenceUC.xaml;UserControls\SenceUCMain.xaml;UserControls\SenceUC_2.xaml;UserControls\SenceUC_3.xaml;UserControls\SenceUC_4.xaml;UserControls\ShelfUC.xaml;UserControls\SQLServerDematicMsgQueryUC.xaml;UserControls\SQLServerDeviceMsgQueryUC .xaml;UserControls\SQLServerHKMsgQueryUC.xaml;UserControls\SQLServerMsgQueryUC.xaml;UserControls\SSJUC.xaml;UserControls\StackDeMaticUI.xaml;UserControls\StackDeMaticUIHorizontal.xaml;UserControls\StackerUI.xaml;UserControls\StackUIHorizontal.xaml;UserControls\TextDescription.xaml;UserControls\UserControl1.xaml;UserControls\UserLogin.xaml;UserControls\UserManagerUC.xaml;UserControls\WMSTaskCreateUC.xaml;UserControls\WMSTaskUC.xaml;UserControls\WMSUC.xaml;UserWindows\AgvPositionOptionWin.xaml;UserWindows\DDJDetailWindow.xaml;UserWindows\DeviceMessageDetailWindow.xaml;UserWindows\DmDDJDetailWindow.xaml;UserWindows\FZJDetailWindow.xaml;UserWindows\HaiKangMessageDetailWindows.xaml;UserWindows\RGVBlockOptionWindows.xaml;UserWindows\RGVDetailWindow.xaml;UserWindows\SSJBlockOptionWindows.xaml;UserWindows\SSJDetailWindow.xaml;UserWindows\WCSTaskOptionWindow.xaml;UserWindows\WMSMessageDetailWindows.xaml;UserWindows\WMSTaskOptionWindow.xaml;
+
+False
+

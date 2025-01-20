@@ -1,0 +1,49 @@
+﻿<UserControl x:Name="userControl" x:Class="BMHRI.WCS.Server.UserControls.ChainMUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing"
+             xmlns:ValueConverter="clr-namespace:BMHRI.WCS.Server.ValueConverter" xmlns:models="clr-namespace:BMHRI.WCS.Server.Models" d:DataContext="{d:DesignInstance Type=models:SSJDeviceBlock}"
+             mc:Ignorable="d" 
+             MouseDoubleClick="UserControl_MouseDoubleClick">
+    <UserControl.Resources>
+        <ValueConverter:BoolToValueConverter x:Key="BoolToValueConverter"/>
+        <ValueConverter:MultiplyConverter x:Key="MultiplyConverter"/>
+        <Style x:Key="BorderStyle" TargetType="Border">
+            <Style.Triggers>
+                <!--<DataTrigger Binding="{Binding IsLoaded}" Value="true">
+                    <Setter Property="BorderBrush" Value="Red"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding IsLoaded}" Value="false">
+                    <Setter Property="BorderBrush" Value="Blue"/>
+                </DataTrigger>-->
+                <DataTrigger Binding="{Binding IsFaulty}" Value="true">
+                    <Setter Property="BorderBrush" Value="Red"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding IsFaulty}" Value="false">
+                    <Setter Property="BorderBrush" Value="Blue"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding BlockStatus}" Value="2">
+                    <Setter Property="BorderBrush" Value="Yellow"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Border BorderThickness="0.7" Style="{StaticResource BorderStyle}">
+        <Border.ToolTip>
+            <Label Content="{Binding DeviceDescription}" />
+        </Border.ToolTip>
+        <Grid x:Name="g" Background="#FFEBF3F4">
+            <Rectangle Fill="#FF1AA7E5" Width="16" Height="16" VerticalAlignment="Center" Visibility="{Binding IsOccupied, Converter={StaticResource BoolToValueConverter},ConverterParameter=Visible, FallbackValue=Collapsed}" HorizontalAlignment="Center"/>
+            <!--#FFEBF3F4{Binding IsOccupied, Converter={StaticResource BoolToValueConverter},ConverterParameter=Visible, FallbackValue=Collapsed}-->
+            <!--<ed:LineArrow Stroke="Red" Grid.Column="1"  ArrowSize="1" VerticalContentAlignment="Center" Height="1" FlowDirection="{Binding MotionDirection,Converter={StaticResource MotionDirToArrowDir}}" Width="6" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,2,0,0" />-->
+            <Viewbox  VerticalAlignment="Center" HorizontalAlignment="Center" 
+                      Width= "{Binding ActualWidth, RelativeSource={RelativeSource AncestorType=UserControl}, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.5}"
+                      Height="{Binding ActualHeight, RelativeSource={RelativeSource AncestorType=UserControl}, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.6}">
+                <Label x:Name="DeviceIDLabel" Content="{Binding Position}" VerticalContentAlignment="Bottom"/>
+            </Viewbox>
+
+        </Grid>
+    </Border>
+</UserControl>

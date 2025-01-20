@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BMHRI.WCS.Server.20240401\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|d:\\bmhri.wcs.server.20240401\\models\\ssjdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\ssjdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|d:\\bmhri.wcs.server.20240401\\models\\wmswebapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\wmswebapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|d:\\bmhri.wcs.server.20240401\\webapi\\protocols\\wmsmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:webapi\\protocols\\wmsmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|d:\\bmhri.wcs.server.20240401\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|d:\\bmhri.wcs.server.20240401\\webapi\\controllers\\updateagvtaskstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:webapi\\controllers\\updateagvtaskstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|d:\\bmhri.wcs.server.20240401\\models\\agvmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\agvmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|d:\\bmhri.wcs.server.20240401\\configure\\ssj_block.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:configure\\ssj_block.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|d:\\bmhri.wcs.server.20240401\\models\\ssjmessage.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\ssjmessage.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|d:\\bmhri.wcs.server.20240401\\webapi\\webapiserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:webapi\\webapiserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|d:\\bmhri.wcs.server.20240401\\models\\wcstask.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\wcstask.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|d:\\bmhri.wcs.server.20240401\\models\\wmstask.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2DC05870-87DB-475F-8F5F-E524FAA38691}|BMHRI.WCS.Server.csproj|solutionrelative:models\\wmstask.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1254,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WMSTask.cs",
+              "DocumentMoniker": "D:\\BMHRI.WCS.Server.20240401\\Models\\WMSTask.cs",
+              "RelativeDocumentMoniker": "Models\\WMSTask.cs",
+              "ToolTip": "D:\\BMHRI.WCS.Server.20240401\\Models\\WMSTask.cs",
+              "RelativeToolTip": "Models\\WMSTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T02:38:28.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\BMHRI.WCS.Server.20240401\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\BMHRI.WCS.Server.20240401\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-31T02:07:30.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WMSMessage.cs",
+              "DocumentMoniker": "D:\\BMHRI.WCS.Server.20240401\\WebApi\\Protocols\\WMSMessage.cs",
+              "RelativeDocumentMoniker": "WebApi\\Protocols\\WMSMessage.cs",
+              "ToolTip": "D:\\BMHRI.WCS.Server.20240401\\WebApi\\Protocols\\WMSMessage.cs",
+              "RelativeToolTip": "WebApi\\Protocols\\WMSMessage.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAApwNIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T02:06:22.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SSJ_Block.config",
+              "DocumentMoniker": "D:\\BMHRI.WCS.Server.20240401\\Configure\\SSJ_Block.config",
+              "RelativeDocumentMoniker": "Configure\\SSJ_Block.config",
+              "ToolTip": "D:\\BMHRI.WCS.Server.20240401\\Configure\\SSJ_Block.config",
+              "RelativeToolTip": "Configure\\SSJ_Block.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-30T07:38:19.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateAgvTaskStatusController.cs",
+              "DocumentMoniker": "D:\\BMHRI.WCS.Server.20240401\\WebApi\\Controllers\\UpdateAgvTaskStatusController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UpdateAgvTaskStatusController.cs",
+              "ToolTip": "D:\\BMHRI.WCS.Server.20240401\\WebApi\\Controllers\\UpdateAgvTaskStatusController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UpdateAgvTaskStatusController.cs",
+              "ViewState": "AgIAABYAAACAZ2ZmZmYpwCgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T05:38:05.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WMSWebApiClient.cs",
+              "DocumentMoniker": "D:\\BMHRI.WCS.Server.20240401\\Models\\WMSWebApiClient.cs",
+              "RelativeDocumentMoniker": "Models\\WMSWebApiClient.cs",
+              "ToolTip": "D:\\BMHRI.WCS.Server.20240401\\Models\\WMSWebApiClient.cs",
+              "RelativeToolTip": "Models\\WMSWebApiClient.cs",
+              "ViewState": "AgIAABcCAAAAAAAAAAArwCgCAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:15:49.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AGVManager.cs",
+              "DocumentMoniker": "D:\\BMHRI.WCS.Server.20240401\\Models\\AGVManager.cs",
+              "RelativeDocumentMoniker": "Models\\AGVManager.cs",
+              "ToolTip": "D:\\BMHRI.WCS.Server.20240401\\Models\\AGVManager.cs",
+              "RelativeToolTip": "Models\\AGVManager.cs",
+              "ViewState": "AgIAAGUAAAAAzczMzMwQwFoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T05:59:49.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebApiServer.cs",
+              "DocumentMoniker": "D:\\BMHRI.WCS.Server.20240401\\WebApi\\WebApiServer.cs",
+              "RelativeDocumentMoniker": "WebApi\\WebApiServer.cs",
+              "ToolTip": "D:\\BMHRI.WCS.Server.20240401\\WebApi\\WebApiServer.cs",
+              "RelativeToolTip": "WebApi\\WebApiServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T06:26:32.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SSJDevice.cs",
+              "DocumentMoniker": "D:\\BMHRI.WCS.Server.20240401\\Models\\SSJDevice.cs",
+              "RelativeDocumentMoniker": "Models\\SSJDevice.cs",
+              "ToolTip": "D:\\BMHRI.WCS.Server.20240401\\Models\\SSJDevice.cs",
+              "RelativeToolTip": "Models\\SSJDevice.cs",
+              "ViewState": "AgIAAPcEAAAAAAAAAAArwPYEAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T05:25:12.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WCSTask.cs",
+              "DocumentMoniker": "D:\\BMHRI.WCS.Server.20240401\\Models\\WCSTask.cs",
+              "RelativeDocumentMoniker": "Models\\WCSTask.cs",
+              "ToolTip": "D:\\BMHRI.WCS.Server.20240401\\Models\\WCSTask.cs",
+              "RelativeToolTip": "Models\\WCSTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T06:11:57.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SSJMessage.cs",
+              "DocumentMoniker": "D:\\BMHRI.WCS.Server.20240401\\Models\\SSJMessage.cs",
+              "RelativeDocumentMoniker": "Models\\SSJMessage.cs",
+              "ToolTip": "D:\\BMHRI.WCS.Server.20240401\\Models\\SSJMessage.cs",
+              "RelativeToolTip": "Models\\SSJMessage.cs",
+              "ViewState": "AgIAAE4CAAAAaGZmZmbmv1gCAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T05:55:07.59Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

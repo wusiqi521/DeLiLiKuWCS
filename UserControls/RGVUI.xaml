@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="BMHRI.WCS.Server.UserControls.RGVUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BMHRI.WCS.Server.UserControls"
+             xmlns:ValueConverter="clr-namespace:BMHRI.WCS.Server.ValueConverter"
+             mc:Ignorable="d" 
+             d:DesignHeight="12" d:DesignWidth="10" Loaded="UserControl_Loaded" MouseDoubleClick="UserControl_MouseDoubleClick">
+    <UserControl.Resources>
+        <ValueConverter:BoolToValueConverter x:Key="BoolToValueConverter"/>
+        <Style x:Key="PalletOcupppBorderStyle" TargetType="{x:Type Border}">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding IsOccupying}" Value="1">
+                    <Setter Property="Background" Value="DeepSkyBlue"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="RGVStatusGridStyle" TargetType="{x:Type Grid}">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding RGVStatus}" Value="None">
+                    <Setter Property="Background" Value="Gray"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding RGVStatus}" Value="Standby">
+                    <Setter Property="Background" Value="Green"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding RGVStatus}" Value="Working">
+                    <Setter Property="Background" Value="LawnGreen"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding RGVStatus}" Value="Fault">
+                    <Setter Property="Background" Value="Red"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Grid Style="{StaticResource RGVStatusGridStyle}" >
+        <!--Background="Orange"-->
+        <Grid.RowDefinitions>
+            <!--<RowDefinition Height="3*"/>-->
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="4*"/>
+            <!--<RowDefinition Width="10"/>-->
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0">
+            <Grid x:Name="g" Background="#FFADCEE4">
+                <Rectangle Fill="#FF1AA7E5" Width="19" Height="16" VerticalAlignment="Center" Visibility="{Binding IsOccupying, Converter={StaticResource BoolToValueConverter},ConverterParameter=Visible, FallbackValue=Collapsed}" HorizontalAlignment="Center"/>
+                <Viewbox >
+                    <Label Name="RGVNum"  Foreground="Black" Content="{Binding DeviceID}"/>
+                </Viewbox>
+            </Grid>
+        </Border>
+        <!--<Border Grid.Column="1" BorderBrush="#FFADCEE4" BorderThickness="0.5" Style="{StaticResource PalletOcupppBorderStyle}"/>-->
+        <Border Grid.Row="1" BorderBrush="#FFADCEE4" BorderThickness="0.5" Style="{StaticResource PalletOcupppBorderStyle}" >
+            <Border.ToolTip>
+                <Label Content="{Binding Description}" />
+            </Border.ToolTip>
+            <Viewbox >
+                <Label Name="RGVPalletNum"  Foreground="Blue"  Content="{Binding PalletNum}"/>
+            </Viewbox>
+        </Border>
+    </Grid>
+</UserControl>

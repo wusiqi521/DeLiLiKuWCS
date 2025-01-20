@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="BMHRI.WCS.Server.UserControls.AgvPositionListUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BMHRI.WCS.Server.UserControls" xmlns:converter="clr-namespace:BMHRI.WCS.Server.UserWindows"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid x:Name="Gd">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <!--<ColumnDefinition Width="*"/>-->
+        </Grid.ColumnDefinitions>
+        
+        <GroupBox Grid.Row="1" Header="创建AGV直行搬运任务" Grid.ColumnSpan="2" Foreground="Black" Margin="10">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="起始位置" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <ComboBox x:Name="AGVStaAddrCBB" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center" DropDownOpened="AGVStaAddrCBB_DropDownOpened" DropDownClosed="AGVStaAddrCBB_DropDownClosed"/>
+                <Label Content="托盘号" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox x:Name="AGVPaletNoTB" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Content="目的地址" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <ComboBox x:Name="AGVEndAddrCBB" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <Button x:Name="CreateHTaskBT" Content="创建AGV搬运任务" Margin="10" Click="CreateAGVDirectBT_Click" Style="{StaticResource BtnInfoStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                <Label x:Name="HAlarmLB" Foreground="Red" Margin="10"/>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</UserControl>

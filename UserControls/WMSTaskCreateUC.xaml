@@ -1,0 +1,221 @@
+﻿<UserControl x:Class="BMHRI.WCS.Server.UserControls.WMSTaskCreateUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BMHRI.WCS.Server.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" >
+        <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Margin="10" Orientation="Horizontal" HorizontalAlignment="Left">
+            <Label Content="用户名：" Margin="10,5"/>
+            <TextBox x:Name="UserNameTB" MinWidth="200" Margin="10,5" VerticalAlignment="Center"/>
+            <Label Content="密  码：" Margin="10,5"/>
+            <PasswordBox x:Name="PasswordTB" MinWidth="200" Margin="10,5" VerticalAlignment="Center"/>
+            <Label x:Name="AuthorizedDetectionAlarm" Content="执行操作前请输入用户名和密码" Foreground="Red" VerticalAlignment="Center"/>
+        </StackPanel>
+        <GroupBox Grid.Row="1" Header="入库申请" Foreground="Black" Margin="10">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="入库位置" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <ComboBox x:Name="InboundPortCBB" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Label Content="托盘号" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox x:Name="PaletNumTB" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Button x:Name="ApplyInboundBT" Content="创建申请" Margin="10" Click="ApplyInboundBT_Click" Style="{StaticResource BtnInfoStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label x:Name="AlarmLabel" Foreground="Red" Margin="10"/>
+            </StackPanel>
+        </GroupBox>
+        <!--<GroupBox Grid.Row="8" Header="空托盘申请" Foreground="Black" Margin="10">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="申请位置" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="EmptyAppPortCBB" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Button x:Name="EmptyApplyBT" Content="创建申请" Margin="10" Click="ApplyEmptyBT_Click" Style="{StaticResource BtnInfoStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label x:Name="EmptyApplyAlarmLabel" Foreground="Red" Margin="10"/>
+            </StackPanel>
+        </GroupBox>-->
+            <GroupBox Grid.Row="2" Header="创建输送机入库任务" Foreground="Black" Margin="10">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="起始位置" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="IStaAddrCBB" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center" DropDownClosed="IStaAddrCBB_DropDownClosed"/>
+                    <Label Content="托盘号" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBox x:Name="IPaletNumTB" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Label Content="目的地址" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <ComboBox x:Name="IEndAddrCBB" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    <Button x:Name="CreateITaskBT" Content="创建输送机入库任务" Margin="10" Click="CreateSSJInboundBT_Click" Style="{StaticResource BtnInfoStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Label x:Name="IAlarmLB" Foreground="Red" Margin="10"/>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Grid.Row="3" Header="创建上架任务" Foreground="Black" Margin="10">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="起始位置" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="UStaAddrCBB" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center" DropDownClosed="UStaAddrCBB_DropDownClosed" />
+                <Label Content="托盘号" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox x:Name="UPaletNumTB" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Content="目的地址" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <local:GoodLocationUC x:Name="UEndAddrGLUC"/>
+                <Button x:Name="CreateUTaskBT" Content="创建上架任务" Margin="10" Click="CreateStackBT_Click" Style="{StaticResource BtnInfoStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label x:Name="UAlarmLB" Foreground="Red" Margin="10"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Grid.Row="4" Header="创建出库任务" Foreground="Black" Margin="10">
+            <StackPanel Orientation="Horizontal">
+                    <Label Content="仓库编号" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="OutWarehouse" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center" DropDownClosed="OutWarehouse_DropDownClosed" />
+
+                    <Label Content="起始位置" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <local:GoodLocationUC x:Name="BStaAddrGLUC" />
+                <Label Content="托盘号" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox x:Name="BPaletNumTB" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Content="目的地址" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="BEndAddrCBB" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center"  /> <!--SelectionChanged="BEndAddrCBB_SelectionChanged"-->
+                    <!--<Label x:Name="MateriLB" Content="倒料口" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Collapsed"/>
+                <TextBox x:Name="BEndAddrTB" Margin="10" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed"/>-->
+                <Button x:Name="CreateOutboundBT" Content="创建出库任务" Margin="10" Click="CreateOuboundBT_Click" Style="{StaticResource BtnInfoStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label x:Name="BAlarmLB" Foreground="Red" Margin="10"/>
+            </StackPanel>
+        </GroupBox>      
+        <GroupBox Grid.Row="5" Header="创建移库任务" Foreground="Black" Margin="10">
+            <StackPanel Orientation="Horizontal">
+                    <Label Content="仓库编号" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="OutWarehouse2" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center" DropDownClosed="OutWarehouse_DropDownClosed2" />
+                    <Label Content="起始位置" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <local:GoodLocationUC x:Name="MStaAddrGLUC" />
+                <Label Content="托盘号" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox x:Name="MPaletNumTB" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Content="目的地址" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <local:GoodLocationUC x:Name="MEndAddrGLUC"/>
+
+                <Button x:Name="CreateMoveboundBT" Content="创建移库任务" Margin="10" Click="CreateMvboundBT_Click" Style="{StaticResource BtnInfoStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label x:Name="MAlarmLB" Foreground="Red" Margin="10"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Grid.Row="6" Header="创建直出搬运任务" Foreground="Black" Margin="10">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="起始位置" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="CStaAddrCBB3" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center" DropDownClosed="AStaAddrCBB_DropDownClosed"/>
+                <Label Content="托盘号" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox x:Name="CPaletNumTB3" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Content="目的地址" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="CEndAddrCBB3" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <Button x:Name="CreateCTaskBT3" Content="创建直行搬运任务" Margin="10" Click="CreateMDirectBT_Click" Style="{StaticResource BtnInfoStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                <Label x:Name="CAlarmLB3" Foreground="Red" Margin="10"/>
+            </StackPanel>
+        </GroupBox>
+            <!--<GroupBox Grid.Row="9" Header="输送机入库二次申请" Foreground="Black" Margin="10">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="入库位置" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="SecondInboundPortCBB" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <Label Content="托盘号" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBox x:Name="SecPaletNumTB" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Label Content="任务号" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBox x:Name="TaskidNumTB" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Button x:Name="SecondApplyInboundBT" Content="创建申请" Margin="10" Click="SecondApplyInboundBT_Click" Style="{StaticResource BtnInfoStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Label x:Name="SecAlarmLabel" Foreground="Red" Margin="10"/>
+                </StackPanel>
+            </GroupBox>-->
+            <GroupBox Grid.Row="7" Header="创建联机入库任务" ToolTip="创建联机入库任务" Foreground="Black" Margin="10">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="起始位置"  Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="AStaAddrCBB" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center" DropDownClosed="AStaAddrCBB_DropDownClosed"/>
+                    <Label Content="托盘号"  Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBox x:Name="APaletNumTB" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Label Content="目的地址"  Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <local:GoodLocationUC x:Name="AEndAddrGLUC" />
+                    <Button x:Name="CreateInboundBT" Content="创建联机入库任务"  Margin="10" Click="CreateInboundBT_Click" Style="{StaticResource BtnInfoStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Label x:Name="AAlarmLB" Foreground="Red" Margin="10"/>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Grid.Row="8" Header="创建输送机出库任务" Foreground="Black" Margin="10">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="起始位置" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="SStartAddrCBB" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center" DropDownClosed="SStartAddrCBB_DropDowmClosed"/>
+                    <Label Content="托盘号" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBox x:Name="SPaletNumTB" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Label Content="目的地址" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <ComboBox x:Name="SEndAddrCBB" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    <Button x:Name="CreateSSJOutTaskBT" Content="创建输送机出库任务" Margin="10" Click="CreateSSJOutboundBT_Click" Style="{StaticResource BtnInfoStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" Cursor=""/>
+                    <Label x:Name="SAlarmLB" Foreground="Red" Margin="10"/>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Grid.Row="9" Header="创建提升机换层任务" Foreground="Black" Margin="10">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="起始位置" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="CStartAddrCBB" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center" DropDownClosed="CStartAddrCBB_DropDowmClosed"/>
+                    <Label Content="托盘号" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBox x:Name="CPaletNumTB" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Label Content="目的地址" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <ComboBox x:Name="CEndAddrCBB" DisplayMemberPath="Position" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    <Button x:Name="CreateSSJInToOutTaskBT" Content="创建提升机换层任务" Margin="10" Click="CreateSSJInToOutBT_Click" Style="{StaticResource BtnInfoStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Label x:Name="CAlarmLB" Foreground="Red" Margin="10"/>
+                </StackPanel>
+            </GroupBox>
+            <!-- 一号提升机自动出库面板 -->
+            <GroupBox Grid.Row="10" Header="一号提升机自动出库(北侧)" Foreground="Black" Margin="10">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="出库层位" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="OutboundFloorCBB1" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <!-- 添加层位选项 -->
+                        <ComboBoxItem Tag="1" Content="一层" />
+                        <ComboBoxItem Tag="2" Content="二层" />
+                        <ComboBoxItem Tag="3" Content="三层" />
+                        <!-- 根据实际情况添加更多层位 -->
+                    </ComboBox>
+                    <Button x:Name="StartAutoOutboundBT1" Content="开启自动出库" Margin="10" Click="StartAutoOutboundBT1_Click" Style="{StaticResource BtnInfoStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Label x:Name="StatusLabel1" Content="当前状态：未开启" Foreground="Green" Margin="10" VerticalAlignment="Center"/>
+                    <Label x:Name="AlarmLabel1" Foreground="Red" Margin="10"/>
+                </StackPanel>
+            </GroupBox>
+
+            <!-- 二号提升机自动出库面板 -->
+            <GroupBox Grid.Row="11" Header="二号提升机自动出库(中部)" Foreground="Black" Margin="10">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="出库层位" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="OutboundFloorCBB2" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <!-- 添加层位选项 -->
+                        <ComboBoxItem Tag="1" Content="一层" />
+                        <ComboBoxItem Tag="2" Content="二层" />
+                        <ComboBoxItem Tag="3" Content="三层" />
+                        <!-- 根据实际情况添加更多层位 -->
+                    </ComboBox>
+                    <Button x:Name="StartAutoOutboundBT2" Content="开启自动出库" Margin="10" Click="StartAutoOutboundBT2_Click" Style="{StaticResource BtnInfoStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Label x:Name="StatusLabel2" Content="当前状态：未开启" Foreground="Green" Margin="10" VerticalAlignment="Center"/>
+                    <Label x:Name="AlarmLabel2" Foreground="Red" Margin="10"/>
+                </StackPanel>
+            </GroupBox>
+
+            <!-- 三号提升机自动出库面板 -->
+            <GroupBox Grid.Row="12" Header="三号提升机自动出库(南侧)" Foreground="Black" Margin="10">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="出库层位" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="OutboundFloorCBB3" Margin="10" MinWidth="160" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <!-- 添加层位选项 -->
+                        <ComboBoxItem Tag="1" Content="一层" />
+                        <ComboBoxItem Tag="2" Content="二层" />
+                        <ComboBoxItem Tag="3" Content="三层" />
+                        <!-- 根据实际情况添加更多层位 -->
+                    </ComboBox>
+                    <Button x:Name="StartAutoOutboundBT3" Content="开启自动出库" Margin="10" Click="StartAutoOutboundBT3_Click" Style="{StaticResource BtnInfoStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Label x:Name="StatusLabel3" Content="当前状态：未开启" Foreground="Green" Margin="10" VerticalAlignment="Center"/>
+                    <Label x:Name="AlarmLabel3" Foreground="Red" Margin="10"/>
+                </StackPanel>
+            </GroupBox>
+
+        </Grid>
+    </ScrollViewer>
+</UserControl>

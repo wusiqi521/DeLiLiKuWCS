@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>E:\BMHRI.WCS.Server\BMHRI.WCS.Server\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="CustomWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\AboutUSUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\ButtonUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\DeviceManagerUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\DmDDJUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Led.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\RGVRailWayUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\RGVRailWayVerticalUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\RGVUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\SenceUCMain.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\ShelfUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\SQLServerHKMsgQueryUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\StackDeMaticUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\StackDeMaticUIHorizontal.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\StackerUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\StackUIHorizontal.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\TextDescription.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\UserControl1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\UserManagerUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\WMSUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserWindows\DmDDJDetailWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserWindows\RGVDetailWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserWindows\WMSMessageDetailWindows.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="CustomWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\AboutUSUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\AgvPositionLayerListUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\AgvPositionListUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\ButtonUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\DeviceManagerUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\DmDDJUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Led.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\RGVRailWayUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\RGVRailWayVerticalUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\RGVUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\SenceUC_4.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\SenceUC_3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\SenceUC_2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\SenceUCMain.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\ShelfUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\SQLServerDematicMsgQueryUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\FZJUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\SQLServerHKMsgQueryUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\StackDeMaticUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\StackDeMaticUIHorizontal.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\StackerUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\StackUIHorizontal.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\TextDescription.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\UserControl1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\UserLogin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\UserManagerUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\WMSUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserWindows\AgvPositionOptionWin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserWindows\DmDDJDetailWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserWindows\HaiKangMessageDetailWindows.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserWindows\RGVDetailWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserWindows\FZJDetailWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserWindows\RGVBlockOptionWindows.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserWindows\WMSMessageDetailWindows.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

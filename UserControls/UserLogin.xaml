@@ -1,0 +1,138 @@
+﻿<UserControl x:Class="BMHRI.WCS.Server.UserControls.UserLogin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BMHRI.WCS.Server.UserControls"
+      xmlns:converter="clr-namespace:BMHRI.WCS.Server.ValueConverter"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="800">
+    <!--<UserControl.Resources>
+        <Style x:Key="LoginByUserNamebtn" BasedOn="{StaticResource BtnInfoStyle}" TargetType="Button">
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Background" Value="blue"/>
+            <Setter Property="IsEnabled" Value="False" />
+            <Style.Triggers>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding TextBox,ElementName=UserNameTB}" Value=""/>
+                        <Condition Binding="{Binding TextBox,ElementName=PasswordTB}" Value=""/>
+                    </MultiDataTrigger.Conditions>
+                    <MultiDataTrigger.Setters>
+                        <Setter Property="IsEnabled" Value="True" />
+                    </MultiDataTrigger.Setters>
+                </MultiDataTrigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>-->
+    <Control.Resources>
+        <converter:EnumDescriptionConverter x:Key="EnumDescriptionConverter"/>
+        <Style x:Key="ListViewItemStyle" TargetType="{x:Type ListViewItem}">
+            <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+            <!--<EventSetter Event="MouseDoubleClick" Handler="UserMessLV_MouseDoubleClick" />-->
+        </Style>
+    </Control.Resources>
+    <Grid Margin="10,10,10,-6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="CurrentUserNameDes" Content="" HorizontalAlignment="Right" Foreground="#FF0F67B4" FontSize="25"/>
+        <GroupBox Header="用户登录" Grid.Row="1"   Margin="10" HorizontalAlignment="Center" Foreground="#FF000000">
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Label Grid.Row="0" Grid.Column="0" Content="用户名："  Margin="10,5" HorizontalAlignment="Center"/>
+                <TextBox x:Name="UserNameTB" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Margin="10,5" MinWidth="150" VerticalAlignment="Center"/>
+                <Label Grid.Row="1" Grid.Column="0" Content="密码："  Margin="10,5" HorizontalAlignment="Center"/>
+                <PasswordBox x:Name="PasswordTB" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="10,5" MinWidth="150" VerticalAlignment="Center"/>
+                <Label x:Name="LoginErrorLB" Margin="10,5" Grid.Row="2" Grid.ColumnSpan="2" Foreground="Red" Visibility="Collapsed" HorizontalAlignment="Left"/>
+                <Button x:Name="LoginBtn" Content="登录" Grid.Row="3" Grid.Column="1" Margin="10,5" Width="70" Foreground="White" Background="#FF0F67B4" Click="LoginBtn_Click"/>
+                <Button x:Name="ExitLogin" Content="退出登录" Grid.Row="3" Grid.Column="2" Margin="10,5" Width="70"  Background="#FF0F67B4" Foreground="White"  Click="ExitLogin_Click"/>
+                <Image Source="/Images/logo.png" Height="22"  Grid.Row="4" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="AddUserGB" Header="修改用户" Grid.Row="1" Grid.Column="1"  Margin="10" HorizontalAlignment="Center" Foreground="#FF000000" Visibility="Collapsed">
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="用户名："  Margin="10,5"/>
+                <TextBox x:Name="AddUserNameTB" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" MinWidth="150" Margin="10,5" VerticalAlignment="Center"/>
+                <Label Grid.Row="1" Grid.Column="0" Content="密码："  Margin="10,5"/>
+                <PasswordBox x:Name="AddPasswordTB" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" MinWidth="150" Margin="10,5" VerticalAlignment="Center"/>
+                <Label x:Name="AlarmLB" Content="" Grid.Row="2" Grid.ColumnSpan="3" Visibility="Visible" Foreground="Red"/>
+                <RadioButton Grid.Row="3" Grid.Column="1" Content="操作员" Margin="10,5" VerticalAlignment="Center" Click="Role_RadioButton_Click"/>
+                <RadioButton Grid.Row="3" Grid.Column="2" Content="管理员" Margin="10,5" VerticalAlignment="Center" Click="Role_RadioButton_Click"/>
+                <StackPanel Grid.Row="4" Grid.ColumnSpan="3" Visibility="Visible" Margin="10,5" Orientation="Horizontal">
+                    <CheckBox x:Name="DeviceRepaire" Content="设备维护" Margin="10,5" Visibility="Collapsed" Click="RadioButton_Click" />
+                    <CheckBox x:Name="TaskManager" Content="任务操作" Margin="10,5" Visibility="Collapsed" Click="RadioButton_Click"/>
+                    <CheckBox x:Name="TaskSet" Content="任务设定" Margin="10,5" Visibility="Collapsed" Click="RadioButton_Click"/>
+                </StackPanel>
+                <!--<StackPanel Grid.Row="5" Grid.ColumnSpan="3" Visibility="Visible" Margin="10,5" Orientation="Horizontal">
+                    <CheckBox x:Name="GoodsLocationMana" Content="货位管理" Margin="10,5" Visibility="Collapsed" Click="RadioButton_Click"/>
+                    <CheckBox x:Name="LogQuery" Content="日志查询" Margin="10,5" Visibility="Collapsed" Click="RadioButton_Click"/>
+                </StackPanel>-->
+                <Button x:Name="AddLoginRoleBtn" Content="新增用户" Grid.Row="6" Grid.Column="1" Margin="10,5" Width="70" Background="#FF0F67B4" Foreground="White" Click="AddLoginRoleBtn_Click"/>
+                <Button x:Name="DeleteLoginRoleBtn" Content="删除用户" Grid.Row="6" Grid.Column="2" Margin="10,5" Width="70" Background="#FF0F67B4" Foreground="White" Click="DeleteLoginRoleBtn_Click"/>
+                <Image Source="/Images/logo.png" Height="22"  Grid.Row="7" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Grid.Row="2" Grid.ColumnSpan="2" Header="用户列表" Foreground="#FF000000" Margin="5,5,5,180">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <ListView x:Name="UserMessLV" MinHeight="100"  ItemContainerStyle="{DynamicResource ListViewItemStyle}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="用户名" DisplayMemberBinding="{Binding UserName}" Width="90"/>
+                            <GridViewColumn Header="角色" DisplayMemberBinding="{Binding RoleType , Converter={StaticResource EnumDescriptionConverter}}" Width="90"/>
+                            <GridViewColumn Header="是否登录" DisplayMemberBinding="{Binding IsCurrentUser, Converter={StaticResource EnumDescriptionConverter}}" Width="90"/>
+                            <GridViewColumn Header="添加时间" DisplayMemberBinding="{Binding CreateTime,StringFormat='{}{0:yyyy-MM-dd HH:mm:ss.fffffff}'}" Width="200"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <WrapPanel Grid.Row="1">
+                    <Label Content="用户数:" VerticalAlignment="Center" />
+                    <Label x:Name="UserNumLB" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <Button Content="刷新列表" Margin="5" Click="UserRefreshBT_Click"/>
+                </WrapPanel>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</UserControl>

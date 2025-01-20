@@ -1,0 +1,114 @@
+﻿<UserControl x:Class="BMHRI.WCS.Server.UserControls.Led"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:models="clr-namespace:BMHRI.WCS.Server.Models"
+             xmlns:ValueConverter="clr-namespace:BMHRI.WCS.Server.ValueConverter"
+             d:DataContext="{d:DesignInstance Type=models:SSJDeviceBlock}"
+             mc:Ignorable="d"
+             Width="1500" Height="1500">
+    <UserControl.Resources>
+        <ValueConverter:BoolToValueConverter x:Key="BoolToValueConverter"/>
+
+        <!-- 上部绿色灯样式 -->
+        <Style x:Key="UpperLightStyle" TargetType="{x:Type Path}">
+            <Setter Property="Fill" Value="Gray"/>
+            <!-- 默认关闭状态 -->
+            <Setter Property="Stroke" Value="Black"/>
+            <Setter Property="StrokeThickness" Value="2"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding CurrentMode}" Value="1">
+                    <Setter Property="Fill" Value="SpringGreen" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- 下部红色灯样式 -->
+        <Style x:Key="LowerLightStyle" TargetType="{x:Type Path}">
+            <Setter Property="Fill" Value="Gray"/>
+            <!-- 默认关闭状态 -->
+            <Setter Property="Stroke" Value="Black"/>
+            <Setter Property="StrokeThickness" Value="2"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding CurrentMode}" Value="0">
+                    <Setter Property="Fill" Value="Red" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid x:Name="grid">
+        <Viewbox Stretch="Uniform" StretchDirection="Both">
+            <!-- 主 Grid 分为上下两行 -->
+            <Grid Width="1500" Height="1500">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!-- 上部区域：标签“入”和绿色灯 -->
+                <Grid Grid.Row="0" Margin="0,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="750"/>
+                        <!-- 标签区域 -->
+                        <ColumnDefinition Width="*"/>
+                        <!-- 灯光区域 -->
+                    </Grid.ColumnDefinitions>
+
+                    <!-- 标签“入” -->
+                    <TextBlock Grid.Column="0"
+                               Text="入"
+                               FontSize="750"
+                               FontWeight="Bold"
+                               Foreground="Black"
+
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center"
+                               Margin="0,0,0,0"/>
+
+                    <!-- 上部圆形 (入库 - 绿色灯) -->
+                    <Path Grid.Column="1" 
+                          Style="{StaticResource UpperLightStyle}"
+                          Width="750" Height="750"
+                          Data="M 375,375 m -375,0 a 375,375 0 1,0 750,0 a 375,375 0 1,0 -750,0"
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Center"/>
+                </Grid>
+
+                <!-- 下部区域：标签“出”和红色灯 -->
+                <Grid Grid.Row="1" Margin="0,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="750"/>
+                        <!-- 标签区域 -->
+                        <ColumnDefinition/>
+                        <!-- 灯光区域 -->
+                    </Grid.ColumnDefinitions>
+
+                    <!-- 标签“出” -->
+                    <TextBlock Grid.Column="0"
+                               Text="出"
+                               FontSize="750"
+                               Foreground="Black"
+
+                               FontWeight="Bold"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center"
+                               Margin="0,0,0,0"/>
+
+                    <!-- 下部圆形 (出库 - 红色灯) -->
+                    <Path Grid.Column="1" 
+                          Style="{StaticResource LowerLightStyle}"
+                          Width="750" Height="750"
+                          Data="M 375,375 m -375,0 a 375,375 0 1,0 750,0 a 375,375 0 1,0 -750,0"
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Center"/>
+                </Grid>
+            </Grid>
+        </Viewbox>
+    </Grid>
+</UserControl>

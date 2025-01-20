@@ -1,0 +1,36 @@
+﻿<Window x:Class="BMHRI.WCS.Server.UserWindows.HaiKangMessageDetailWindows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BMHRI.WCS.Server.UserWindows"
+        mc:Ignorable="d"
+        Title="海康消息处理" Width="400" WindowStyle="ToolWindow" SizeToContent="Height" WindowStartupLocation="CenterScreen">
+    <Border Margin="10" BorderThickness="1" BorderBrush="Blue">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <WrapPanel Grid.Row="3" Orientation="Horizontal" >
+                <Label Content="用户名：" VerticalAlignment="Center" Margin="5"/>
+                <TextBox x:Name="UserNameTB" Width="100" VerticalAlignment="Center"  />
+                <Label Content="密 码：" VerticalAlignment="Center" Margin="5"/>
+                <PasswordBox x:Name="PasswordTB" Width="100" VerticalAlignment="Center" Margin="5"/>
+                <Label x:Name="AlarmLB" Content="执行操作前请输入用户名和密码" Foreground="#FFD41212" Margin="5"/>
+            </WrapPanel>
+            <Button x:Name="ReSendBT" Grid.Row="4" Content="模拟重发"  Width="70"  Click="SimulatReSendBT_Click" Margin="5" VerticalAlignment="Center" />
+
+            <Label x:Name="OperationAlarmLB" VerticalAlignment="Center" Margin="5" Grid.Row="2"/>
+            <Border  Margin="10,10,10,0" BorderBrush="#FF0C7ED4" BorderThickness="1">
+                <TextBox x:Name="ReqPanel" TextWrapping="Wrap"/>
+            </Border>
+            <Border Grid.Row="1"  Margin="10,10,10,0" BorderBrush="#FF0C7ED4" BorderThickness="1">
+                <TextBox x:Name="RspPanel" TextWrapping="Wrap"/>
+            </Border>
+        </Grid>
+    </Border>
+</Window>

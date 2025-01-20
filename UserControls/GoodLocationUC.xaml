@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="BMHRI.WCS.Server.UserControls.GoodLocationUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BMHRI.WCS.Server.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="30" d:DesignWidth="250">
+    <StackPanel Orientation="Horizontal">
+        <ComboBox x:Name="RowNumCBB" MinWidth="50" DisplayMemberPath="Row" VerticalAlignment="Center" Margin="5,0" SelectionChanged="RowNumCBB_SelectionChanged"  />
+        <Label Content="排" VerticalAlignment="Center" />
+        <ComboBox x:Name="RankNumCBB" MinWidth="50" DisplayMemberPath="Rank" VerticalAlignment="Center"  Margin="5,0" SelectionChanged="RankNumCBB_SelectionChanged"/>
+        <Label Content="列" VerticalAlignment="Center"/>
+        <ComboBox x:Name="LayerNumCBB"  MinWidth="50" DisplayMemberPath="Layer" VerticalAlignment="Center" Margin="5,0" SelectionChanged="LayerNumCBB_SelectionChanged"/>
+        <Label Content="层" VerticalAlignment="Center"/>
+    </StackPanel>
+</UserControl>

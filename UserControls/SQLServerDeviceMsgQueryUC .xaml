@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="BMHRI.WCS.Server.UserControls.SQLServerDeviceMsgQueryUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Loaded="UserControl_Loaded">
+    <Control.Resources>
+        <Style x:Key="ListViewItemStyle" TargetType="{x:Type ListViewItem}">
+            <Setter Property="HorizontalContentAlignment" Value="Left"></Setter>
+            <EventSetter Event="MouseDoubleClick" Handler="WMSTaskLV_MouseDoubleClick" />
+        </Style>
+    </Control.Resources>
+    <Grid Background="#FFE5E5E5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Margin="10,5">
+            <Label x:Name="TitlLB" Foreground="Red" VerticalAlignment="Center" Margin="10,0"/>
+            <Label Content="起始时间:" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,0"/>
+            <DatePicker x:Name="StartDP" VerticalAlignment="Center" SelectedDate="{x:Static sys:DateTime.Now}" Margin="5,0" MinWidth="95"/>
+            <Label Content="---" VerticalAlignment="Center" Margin="5,0"/>
+            <Label Content="结束时间:" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,0"/>
+            <DatePicker x:Name="EndDP" SelectedDate="{x:Static sys:DateTime.Now}" VerticalAlignment="Center" Margin="5,0" MinWidth="95" />
+            <ComboBox x:Name="DeviceIDCB" VerticalAlignment="Center" Margin="5,0" MinWidth="80" Visibility="Collapsed"/>
+            <Label Content="包含字符串" VerticalAlignment="Center" Margin="5,0"/>
+            <TextBox x:Name="StrTB" HorizontalAlignment="Center" MinWidth="80" VerticalAlignment="Center" Margin="5,0"/>
+            
+            <Button Content="查询" MinWidth="80" VerticalAlignment="Center" Margin="5,0" Click="QueryBT_Click"/>
+            <Label x:Name="AlarmLB" Foreground="Red" HorizontalAlignment="Center"/>
+        </StackPanel>
+        <!--<DataGrid x:Name="SqlQueryDG" Grid.Row="1" CanUserAddRows="False" IsReadOnly="True" EnableColumnVirtualization="True" />-->
+        <ListView x:Name="SqlQueryDG" Grid.Row="1" ItemContainerStyle="{StaticResource ListViewItemStyle}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn  Header="PLC编号" DisplayMemberBinding="{Binding PLCID}" Width="150"/>
+                    <GridViewColumn  Header="消息方向" DisplayMemberBinding="{Binding Direction}" Width="150"/>
+                    <GridViewColumn  Header="消息内容" DisplayMemberBinding="{Binding Trans}" Width="auto"/>
+                    <GridViewColumn  Header="消息说明" DisplayMemberBinding="{Binding MsgParse}" Width="auto"/>
+                    <GridViewColumn  Header="时间" DisplayMemberBinding="{Binding Tkdat,StringFormat='{}{0:yyyy-MM-dd HH:mm:ss:fff}'}" Width="auto"/>
+                    <GridViewColumn  Header="序列号" DisplayMemberBinding="{Binding MsgSeqID}" Width="auto"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</UserControl>

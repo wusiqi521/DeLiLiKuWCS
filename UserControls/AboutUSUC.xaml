@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="BMHRI.WCS.Server.UserControls.AboutUSUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BMHRI.WCS.Server.UserControls"
+             mc:Ignorable="d">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Content="关于我们" FontSize="22" FontWeight="Bold"  Foreground="#DD0B4473" HorizontalAlignment="Center" Margin="20"/>
+        <GroupBox Header="软件说明"  Grid.Row="1" FontSize="16"  Foreground="#DD0B4473" Width="800" >
+            <TextBlock  Text="       WCS（仓储控制系统）是介于WMS和底层PLC之间的管理控制系统。它把从WMS系统中接收任务分解到分拣机、输送机、堆垛机、AGV等设备任务，并将指令下达到底层PLC，从而驱动自动化设备动作。任务队列可监控，并将现场设备的状态及数据实时反馈在界面上，同时把任务执行流程及状态实时反馈给WMS，所有作业指令、以及与WMS进行信息交互记录都可追溯。
+本套WCS系统是由北京起重运输机械设计研究院有限公司（简称北起院）仓储事业部完全自主开发的控制系统，具有反应速度快，运行稳定，信息传递准确等特点。" TextWrapping="Wrap" Foreground="#DD0B4473" FontSize="16"/>
+        </GroupBox>
+        <GroupBox Header="公司介绍" FontSize="16" Foreground="#DD0B4473" Grid.Row="2" Margin="0,20,0,0" Width="800" >
+            <TextBlock xml:space="preserve" Text="       北京起重运输机械设计研究院有限公司（简称北起院）成立于1958 年，经过半个多世纪的发展，由原机械工业部直属的国家起重运输机械行业技术归口研究所发展成为集科研开发、工程承包、设备成套、设计制造、检验检测、监理服务为一体的国有科技型企业，隶属于世界500 强企业中国机械工业集团有限公司。&#x000A;
+      北起院作为国内著名物流装备系统集成商及著名物流设备供应商，是中国物流仓储技术的先驱。1973年研制出中国第一座自动化立体仓库；1998年首次实现国内自动化立体仓库出口国外；2001年率先进入自动化物流配送中心物流装备系统集成领域；2010年成功进入电子商务领域。从业四十多年来，北起院累计为国内、外各行各业成功实施了七百余套自动化物流仓储装备系统；百余套自动化物流配送中心的物流仓储装备系统（涉及医药、汽车、家居、电器、鞋服、纺织、物资、电商、电气、航空、军工等行业）；近百套连接生产的自动输送及码垛设备智能制造系统（涉及医药工业、化工、酒类、乳品、矿泉水以及其他快消品等行业），国内市场占有率名列前茅，是国内本行业的龙头单位之一。北起院是本行业协会、学会、标委会的挂靠单位，负责起草了国内物流仓储装备的所有标准，同时承担了国家 六五 到 十三五 相关课题的技术攻关，取得了丰硕的成果。"  TextWrapping="Wrap" Foreground="#DD0B4473" FontSize="16"/>
+        </GroupBox>
+        <GroupBox Header="版权" FontSize="16" Foreground="#DD0B4473" Grid.Row="3" Margin="0,20,0,0" VerticalAlignment="Center" Width="800" >
+            <StackPanel>
+                <Label Content="WCS(Warehouse Control System)  版本 2021.12.11"  FontSize="16" Foreground="#DD0B4473" HorizontalAlignment="Center"/>
+                <Label Content="Copyright © 2021 北京起重运输机械设计研究院有限公司。保留所有权利" FontSize="16" Foreground="#DD0B4473" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </GroupBox>
+        <Image Source="/logo.png" Height="46"  Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,66 @@
+﻿<Window x:Class="BMHRI.WCS.Server.UserWindows.AgvPositionOptionWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         xmlns:core="clr-namespace:System;assembly=mscorlib"
+        xmlns:models="clr-namespace:BMHRI.WCS.Server.Models"
+        xmlns:local="clr-namespace:BMHRI.WCS.Server.UserWindows" xmlns:ValueConverter="clr-namespace:BMHRI.WCS.Server.ValueConverter" d:DataContext="{d:DesignInstance Type=models:AgvPosition}"
+        mc:Ignorable="d"
+        Title="Agv位置操作窗口" SizeToContent="WidthAndHeight" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen" BorderThickness="1,1,1,1">
+    <Window.Resources>
+        <ValueConverter:BoolToValueConverter x:Key="BoolToValueConverter"/>
+        <ObjectDataProvider x:Key="AgvPositionStatusKey" MethodName="GetValues" ObjectType="{x:Type core:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type Type="models:AgvPositionStatus"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <ObjectDataProvider x:Key="AgvPositionSystemTypeKey" MethodName="GetValues" ObjectType="{x:Type core:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type Type="models:AgvPositionSystemType"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="位置编号" HorizontalAlignment="Left"/>
+        <Label Grid.Row="0" Grid.Column="1" MinWidth="180" Content="{Binding Position}" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+        <Label Grid.Row="1" Grid.Column="0" Content="WMS区域" HorizontalAlignment="Left"/>
+        <TextBox Grid.Row="1" Grid.Column="1"  MinWidth="180" Text="{Binding FLPosition}" VerticalAlignment="Center"  HorizontalAlignment="Left"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="WMS编号" HorizontalAlignment="Left"/>
+        <TextBox Grid.Row="2" Grid.Column="1"  MinWidth="180" Text="{Binding FLLPosition}" VerticalAlignment="Center"  HorizontalAlignment="Left"/>
+        <Label Grid.Row="3" Grid.Column="0" Content="对应SSJ编号" HorizontalAlignment="Left"/>
+        <TextBox Grid.Row="3" Grid.Column="1" MinWidth="180" Text="{Binding SSJID}" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+        <Label Grid.Row="4" Grid.Column="0" Content="托盘号" HorizontalAlignment="Left"/>
+        <TextBox Grid.Row="4" Grid.Column="1" MinWidth="180" Text="{Binding PalletNo}" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+        <Label Grid.Row="5" Grid.Column="0" Content="位置类型" HorizontalAlignment="Left"/>
+        <ComboBox Grid.Row="5" Grid.Column="1" MinWidth="180" SelectedItem="{Binding PositionType}" ItemsSource="{Binding Source={StaticResource AgvPositionSystemTypeKey}}" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+        <Label Grid.Row="6" Grid.Column="0" Content="位置状态" HorizontalAlignment="Left"/>
+        <ComboBox Grid.Row="6" Grid.Column="1" MinWidth="180" SelectedItem="{Binding PositionStatus}" ItemsSource="{Binding Source={StaticResource AgvPositionStatusKey}}"  VerticalAlignment="Center" HorizontalAlignment="Left"/>
+        <Label Grid.Row="7" Grid.Column="0" Content="是否可用" HorizontalAlignment="Left"/>
+        <ComboBox Grid.Row="7" Grid.Column="1" x:Name="AvailableCB" MinWidth="100" Text="{Binding IsAvailable, Converter={StaticResource BoolToValueConverter},ConverterParameter=当前可用, FallbackValue=长期故障}" VerticalAlignment="Center">
+            <ComboBoxItem Content="当前可用" Tag="1" VerticalAlignment="Center"/>
+            <ComboBoxItem Content="长期故障" Tag="0"/>
+        </ComboBox>
+        <Label Grid.Row="8" Grid.Column="0" Content="位置描述" HorizontalAlignment="Left"/>
+        <TextBox Grid.Row="8" Grid.Column="1"  MinWidth="180" Text="{Binding Describe}" VerticalAlignment="Center"  HorizontalAlignment="Left"/>
+        <WrapPanel Grid.Row="9" Grid.ColumnSpan="2">
+            <Button Width="80" Margin="5" Content="保存设置" Click="SaveBTClick"/>
+        </WrapPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,56 @@
+﻿<Window xmlns:UserControls="clr-namespace:BMHRI.WCS.Server.UserControls"  x:Class="BMHRI.WCS.Server.UserWindows.WCSTaskOptionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BMHRI.WCS.Server.UserWindows"
+        mc:Ignorable="d"
+        Title="WCS任务修改窗口"  Width="400" WindowStyle="ToolWindow" Loaded="Window_Loaded" SizeToContent="Height">
+    <Grid x:Name="MainGrid" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <GroupBox Header="任务说明" Margin="10" BorderBrush="#FF0C7ED4">
+            <WrapPanel Grid.Row="0" Orientation="Horizontal">
+                <Label x:Name="PalletNum" Content="托盘号：" Margin="5"/>
+                <Label x:Name="DeviceType" Content="设备类型：" Margin="5"/>
+                <Label x:Name="DeviceNum" Content="设备类型：" Margin="5"/>
+                <Label x:Name="JobType" Content="任务类型：" Margin="5"/>
+                <Label x:Name="JobStatus" Content="任务状态：" Margin="5"/>
+                <Label x:Name="WMSID" Content="管理任务ID：" Margin="5"/>
+                <Label x:Name="EndPosition" Content="目的地址：" Margin="5"/>
+                <Label x:Name="StarPositionLB" Content="开始站台：" Margin="5"/>                
+                <UserControls:GoodLocationUC x:Name="GoodLocationUC"/>
+            </WrapPanel>
+        </GroupBox>
+        <GroupBox Header="任务操作" Margin="10" Grid.Row="1" BorderBrush="#FF0C7ED4">
+            <StackPanel   Orientation="Vertical" Margin="5" >
+                <WrapPanel Orientation="Horizontal">
+                    <Label Content="用户名：" Margin="5" VerticalAlignment="Center"/>
+                    <TextBox x:Name="UserNameTB" Width="100" VerticalContentAlignment="Center" Margin="5" VerticalAlignment="Center" />
+                    <Label Content="密 码：" Margin="5" VerticalAlignment="Center"/>
+                    <PasswordBox x:Name="PasswordTB" Width="100" VerticalContentAlignment="Center" Margin="5" VerticalAlignment="Center" />
+                    <Label x:Name="AlarmLB" Content="执行操作前请输入用户名和密码" Margin="5" Foreground="#FFD41212" />
+                </WrapPanel>
+                <WrapPanel Orientation="Horizontal" Margin="5" >
+                    <Button x:Name="ManualStartBT" Content="手动开始"  Width="70" Margin="5"  Click="ManualStartClick" Style="{StaticResource BtnInfoStyle}" />
+                    <Button x:Name="StartDoingBT" Content="正在执行"  Width="70" Margin="5"  Click="StartDoingClick" Style="{StaticResource BtnInfoStyle}" />
+                    <Button x:Name="ManualFinishBT" Content="手动完成"  Width="70" Margin="5" Click="ManualFinishClick" Style="{StaticResource BtnInfoStyle}" />
+                    <Button x:Name="DeleteJobBT" Content="删除"  Width="70" Margin="5" Click="DeleteBTClick" Style="{StaticResource BtnInfoStyle}"/>
+                    <!--<Button x:Name="ManualChgRGVBT" Content="小车改址"  Width="70" Margin="5"  Click="ManualChgRGVClick" Style="{StaticResource BtnInfoStyle}" />-->
+                    <!--<Button x:Name="ManualChgStackBT" Content="入库改址"  Width="70" Margin="5"  Click="ManualChgStackClick" Style="{StaticResource BtnInfoStyle}" />-->
+                    <Button x:Name="PickUpBT_Copy" Content="托盘取走"  Width="70" Margin="5"  Click="ManualPickUpClick" Style="{StaticResource BtnInfoStyle}" />
+                    <!--<Button x:Name="StackInboundChgBT" Content="入库改址"  Width="70" Margin="5"  Click="StackToChangeClick" Style="{StaticResource BtnInfoStyle}" />-->
+                    <Button  Content="托盘直出到位"  Width="70" Margin="5"  Click="DirectDoneClick" Style="{StaticResource BtnInfoStyle}" />
+                    <Button  Content="入库双重确认"  Width="70" Margin="5"  Click="DoubleStackClick" Style="{StaticResource BtnInfoStyle}" />
+                    <Button  Content="空出库确认"  Width="70" Margin="5"  Click="EmptyUnStackClick" Style="{StaticResource BtnInfoStyle}" />
+                    <Button  Content="远端入库近端有货确认"  Width="110" Margin="5" Visibility="Collapsed" Click="EndNearStopClick" Style="{StaticResource BtnInfoStyle}" />
+                    <Button  Content="远端出库近端有货确认"  Width="120" Margin="5"  Click="StaNearStopClick" Style="{StaticResource BtnInfoStyle}" />
+                    <Button x:Name="ImprovePriorityBT" Content="优先出库"  Width="70" Margin="5"  Click="ImprovePriorityClick" Style="{StaticResource BtnInfoStyle}" />
+                    <Button x:Name="TestBT" Content="测试"  Width="70" Margin="5"  Click="TestClick" Style="{StaticResource BtnInfoStyle}" />
+                </WrapPanel>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>

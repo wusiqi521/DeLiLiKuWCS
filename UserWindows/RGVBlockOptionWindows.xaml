@@ -1,0 +1,86 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BMHRI.WCS.Server.UserWindows"
+    xmlns:core="clr-namespace:System;assembly=mscorlib"
+    xmlns:models="clr-namespace:BMHRI.WCS.Server.Models"
+        xmlns:ValueConverter="clr-namespace:BMHRI.WCS.Server.ValueConverter" d:DataContext="{d:DesignInstance Type=models:RGVDevice}"
+    x:Class="BMHRI.WCS.Server.UserWindows.RGVBlockOptionWindows"
+        mc:Ignorable="d"
+        Title="DeviceOptionWindow" Height="auto" Width="650" WindowStyle="ToolWindow"  WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <ValueConverter:BoolToValueConverter x:Key="BoolToValueConverter"/>
+            <ObjectDataProvider x:Key="DeviceSysTypeKey" MethodName="GetValues" ObjectType="{x:Type core:Enum}">
+                <ObjectDataProvider.MethodParameters>
+                <x:Type Type="models:DeviceSystemType"/>
+                </ObjectDataProvider.MethodParameters>
+            </ObjectDataProvider>
+        <ObjectDataProvider x:Key="DeviceTypeKey" MethodName="GetValues" ObjectType="{x:Type core:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type Type="models:EqpType"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <ObjectDataProvider x:Key="MotionDirKey" MethodName="GetValues" ObjectType="{x:Type core:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type Type="models:DeviceBlockMotionDirection"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+    <StackPanel Margin="10">
+        <GroupBox Header="设备基本配置" Margin="5">
+            <WrapPanel VerticalAlignment="Top" >
+                <StackPanel Orientation="Horizontal" Margin="5" Height="25">
+                    <Label Content="设备编号："  Width="70"/>
+                    <TextBox x:Name="PositionTB" MinWidth="100" Text="{Binding DeviceID}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5" Height="25">
+                    <Label Content="PLC编号："  Width="70"/>
+                    <TextBox x:Name="PLCIDTB"  MinWidth="100" Text="{Binding PLCID}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5" Height="25">
+                    <Label Content="位置读数："  Width="70"/>
+                    <TextBox x:Name="RGVPostionYTB"  MinWidth="100" Text="{Binding RGVPostionY}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <!--<StackPanel Orientation="Horizontal" Margin="5" Height="30">
+                    <Label x:Name="AlarmLable" MinWidth="200" VerticalAlignment="Center" Foreground="Red"/>
+                    <Button Content="保存设备设置" Click="SaveOptionBTClick" MinWidth="80" Margin="5,0"/>
+                    <Button Content="更改设备编号" Click="ChangeOptionBTClick" MinWidth="80" Margin="5,0,0,0"/>
+                </StackPanel>-->
+            </WrapPanel>
+        </GroupBox>
+        <GroupBox Header="设备状态" Margin="5">
+            <WrapPanel>
+                <StackPanel Orientation="Horizontal" Margin="5" Height="30">
+                    <Label Content="托盘号：" Width="70"/>
+                    <Label MinWidth="100" Content="{Binding PalletNum}"/>
+                </StackPanel>
+                <!--<StackPanel Orientation="Horizontal" Margin="5" Height="30">
+                    <Label Content="起始地址：" Width="70"/>
+                    <Label  MinWidth="100" Content="{Binding FmLocation}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5" Height="30">
+                    <Label Content="目的地址：" Width="70"/>
+                    <Label MinWidth="100"  Content="{Binding ToLocation}"/>
+                </StackPanel>-->
+                <!--<StackPanel Orientation="Horizontal" Margin="5" Height="30">
+                    <Label Content="故障内容：" Width="70"/>
+                    <Label MinWidth="100" Content="{Binding FaultContent1}"/>
+                </StackPanel>-->
+                <StackPanel Orientation="Horizontal" Margin="5" Height="30">
+                    <Label Content="故障代码：" Width="70"/>
+                    <Label MinWidth="100" Content="{Binding FaultCode}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5" Height="30">
+                    <Label Content="是否有盘：" Width="70"/>
+                    <Label MinWidth="100" Content="{Binding IsOccupying}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5" Height="30">
+                    <Label Content="提示：" Width="70"/>
+                    <Label x:Name="ClearOccupyAlarmLabel"  Foreground="Red" Width="200"/>
+                </StackPanel>
+            </WrapPanel>
+        </GroupBox>
+    </StackPanel>
+</Window>

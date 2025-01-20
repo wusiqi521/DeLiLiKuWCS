@@ -1,0 +1,20 @@
+﻿BMHRI.WCS.Server
+1.0.0.0
+
+winexe
+C#
+.cs
+E:\苏州聚微\WCS程序\BMHRI.WCS.Server.20240401\obj\Release\net6.0-windows\
+BMHRI.WCS.Server
+none
+false
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
+E:\苏州聚微\WCS程序\BMHRI.WCS.Server.20240401\App.xaml
+46802620873
+12112662615
+109-1977284473
+334421719309
+CustomWindow.xaml;MainWindow.xaml;Styles\Button.xaml;Styles\TabControl.xaml;UserControls\AboutUSUC.xaml;UserControls\ChainMUI.xaml;UserControls\DDJUC.xaml;UserControls\DeviceManagerUC.xaml;UserControls\DmDDJUC.xaml;UserControls\FZJUC.xaml;UserControls\GoodLocationUC.xaml;UserControls\GoodsLoactionUC.xaml;UserControls\GoodsLocationManagerUC.xaml;UserControls\GoodsLocationMapUC.xaml;UserControls\PalletPlaceUC.xaml;UserControls\RGVRailWayUI.xaml;UserControls\RGVRailWayVerticalUI.xaml;UserControls\RGVUI.xaml;UserControls\RollerMUI.xaml;UserControls\SenceUC.xaml;UserControls\ShelfUC.xaml;UserControls\SQLServerDematicMsgQueryUC.xaml;UserControls\SQLServerDeviceMsgQueryUC .xaml;UserControls\SQLServerMsgQueryUC.xaml;UserControls\SSJUC.xaml;UserControls\StackDeMaticUI.xaml;UserControls\StackDeMaticUIHorizontal.xaml;UserControls\StackerUI.xaml;UserControls\StackUIHorizontal.xaml;UserControls\TextDescription.xaml;UserControls\UserControl1.xaml;UserControls\UserManagerUC.xaml;UserControls\WMSTaskCreateUC.xaml;UserControls\WMSTaskUC.xaml;UserControls\WMSUC.xaml;UserWindows\DDJDetailWindow.xaml;UserWindows\DeviceMessageDetailWindow.xaml;UserWindows\DmDDJDetailWindow.xaml;UserWindows\FZJDetailWindow.xaml;UserWindows\RGVBlockOptionWindows.xaml;UserWindows\RGVDetailWindow.xaml;UserWindows\SSJBlockOptionWindows.xaml;UserWindows\SSJDetailWindow.xaml;UserWindows\WCSTaskOptionWindow.xaml;UserWindows\WMSMessageDetailWindows.xaml;UserWindows\WMSTaskOptionWindow.xaml;
+
+False
+

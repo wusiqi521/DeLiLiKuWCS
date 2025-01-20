@@ -1,0 +1,457 @@
+<HR COLOR=blue>
+日志时间：2023-02-23 16:43:24,375 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ02 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.30.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:43:24,375 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ01 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.20.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:43:24,375 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ03 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.49.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:43:24,691 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+FZJ通讯失败，FZJ01 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.29.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.FZJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\FZJDevice.cs:line 216 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:43:48,427 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ02 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.30.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:43:48,427 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ01 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.20.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:43:48,441 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ03 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.49.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:43:48,737 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+FZJ通讯失败，FZJ01 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.29.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.FZJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\FZJDevice.cs:line 216 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:44:12,478 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ01 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.20.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:44:12,478 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ02 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.30.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:44:12,506 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ03 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.49.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:44:12,788 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+FZJ通讯失败，FZJ01 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.29.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.FZJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\FZJDevice.cs:line 216 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:44:36,517 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ02 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.30.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:44:36,517 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ01 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.20.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:44:36,532 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ03 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.49.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:44:36,847 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+FZJ通讯失败，FZJ01 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.29.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.FZJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\FZJDevice.cs:line 216 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:45:00,559 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ01 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.20.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:45:00,559 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ02 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.30.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:45:00,578 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ03 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.49.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:45:00,886 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+FZJ通讯失败，FZJ01 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.29.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.FZJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\FZJDevice.cs:line 216 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:45:24,604 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ01 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.20.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:45:24,604 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ02 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.30.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 120
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:45:24,634 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+PLC通讯失败，SSJ03 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.49.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 123
+   at BMHRI.WCS.Server.Models.SSJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\SSJDevice.cs:line 317 <BR>
+ <HR Size=1><HR COLOR=blue>
+日志时间：2023-02-23 16:45:24,945 [.NET Long Running Task] <BR>
+日志级别：INFO  <BR>
+日 志 类：loginfo [(null)] <BR>
+FZJ通讯失败，FZJ01 ErrorCode = ConnectionError S7.Net.PlcException: Couldn't establish the connection to 172.16.46.29.
+Message: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at S7.Net.Plc.ConnectAsync()
+   at S7.Net.Plc.OpenAsync(CancellationToken cancellationToken)
+   at S7.Net.Plc.Open()
+   --- End of inner exception stack trace ---
+   at S7.Net.Plc.Open()
+   at BMHRI.WCS.Server.Models.PLCDevice.Connect() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\PLCDevice.cs:line 123
+   at BMHRI.WCS.Server.Models.FZJDevice.PLCCommunication() in E:\青岛征和2\BMHRI.WCS.Server.20230221\Models\FZJDevice.cs:line 216 <BR>
+ <HR Size=1>

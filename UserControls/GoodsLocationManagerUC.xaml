@@ -1,0 +1,85 @@
+﻿<UserControl x:Class="BMHRI.WCS.Server.UserControls.GoodsLocationManagerUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BMHRI.WCS.Server.UserControls"
+             xmlns:valueConverter="clr-namespace:BMHRI.WCS.Server.ValueConverter"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <valueConverter:IndexConverter x:Key="MyIndexConverter"/>
+        <Style TargetType="{x:Type TreeViewItem}">
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TreeView x:Name="GoodsLocationRowTV" Background="#FFE9FAF9" BorderThickness="1" BorderBrush="#BBB"  HorizontalAlignment="Left" Margin="10" ScrollViewer.VerticalScrollBarVisibility="Visible" SelectedItemChanged="GoodsLocationTV_SelectedItemChanged" MinWidth="130"/>
+        <Grid Grid.Row="0" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid x:Name="RowGoodsLocationGrid" Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label x:Name="RowGoodsLocationMapTitleLB" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+                <Viewbox VerticalAlignment="Top" Grid.Row="1">
+                    <local:GoodskLocationMapUC x:Name="RowGoodsLocationMap"/>
+                </Viewbox>
+                <GroupBox Header="货位查询" Grid.Row="2" Margin="0,10,0,0" Foreground="Black" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <WrapPanel Orientation="Horizontal" Margin="0,0,0,0.5" Grid.RowSpan="1" >
+                            <Label Content="表内行数:" Margin="4"/>
+                            <Label x:Name="RKLVRowCount" Margin="4,4,10,4" Width="50"/>
+                            <Label Content="排：" Margin="4"/>
+                            <TextBox x:Name="RackQueryRowNumTB" Width="30" Margin="4" VerticalContentAlignment="Center" VerticalAlignment="Center" CommandManager.PreviewCanExecute="TextBox_PrviewExecuted" ContextMenu="{x:Null}" PreviewKeyDown="OnlyNumNeeded_PreviewKeyDown" InputMethod.IsInputMethodEnabled="False" />
+                            <Label Content="列：" Margin="4"/>
+                            <TextBox x:Name="RackQueryyRankNumTB" Width="30" Margin="4" VerticalContentAlignment="Center" VerticalAlignment="Center" CommandManager.PreviewCanExecute="TextBox_PrviewExecuted" ContextMenu="{x:Null}" PreviewKeyDown="OnlyNumNeeded_PreviewKeyDown" InputMethod.IsInputMethodEnabled="False" />
+                            <Label Content="层：" Margin="4"/>
+                            <TextBox x:Name="RackQueryLayerNumTB" Width="30" Margin="4" VerticalContentAlignment="Center" VerticalAlignment="Center" CommandManager.PreviewCanExecute="TextBox_PrviewExecuted" ContextMenu="{x:Null}" PreviewKeyDown="OnlyNumNeeded_PreviewKeyDown" InputMethod.IsInputMethodEnabled="False" />
+                            <Button x:Name="RackNumQueryCofirmBT" Content="货位查询" Margin="4" Width="90" Click="RackNumQueryBT_Click" />
+                            <TextBox x:Name="RackQueryPalletNumTB" Width="150" Margin="4" VerticalContentAlignment="Center" VerticalAlignment="Center" InputMethod.IsInputMethodEnabled="False"/>
+                            <Button x:Name="RackQueryCofirmBT" Content="盘号查询" Margin="4" Width="90" Click="PalletNumQueryBT_Click" />
+                            <Button x:Name="RackQueryExportBT" Content="导出列表" Margin="4" Width="90" Click="RackQueryExportBT_Click" />
+                        </WrapPanel>
+                        <ListView x:Name="GoodsLocationLV" Margin="8,8,8,8.5" Grid.RowSpan="1" Grid.Row="1" MouseDoubleClick="RackLocationLV_MouseDoubleClick">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn  Header="序号" DisplayMemberBinding="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListViewItem}}, Converter={StaticResource MyIndexConverter}}" Width="60" />
+                                    <GridViewColumn  Header="托盘号" DisplayMemberBinding="{Binding PalletNum}" Width="300"/>
+                                    <GridViewColumn  Header="排" DisplayMemberBinding="{Binding Row}" Width="50"/>
+                                    <GridViewColumn  Header="列" DisplayMemberBinding="{Binding Rank}" Width="100"/>
+                                    <GridViewColumn  Header="层" DisplayMemberBinding="{Binding Layer}" Width="50"/>
+                                    <!--<GridViewColumn  Header="子层数" DisplayMemberBinding="{Binding SubLayer}" Width="70"/>
+                                    <GridViewColumn  Header="最大子层数" DisplayMemberBinding="{Binding MaxLayer}" Width="140"/>-->
+                                    <GridViewColumn  Header="货位状态" DisplayMemberBinding="{Binding Available}" Width="140"/>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </Grid>
+                </GroupBox>
+            </Grid>
+            <StackPanel Grid.Row="1" Orientation="Horizontal" >
+                <Label x:Name="TotalGoodsLB" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+                <Label x:Name="UsedGoodsLB" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+                <Label x:Name="UnavailableGoodsLB" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+                <Label x:Name="RemainAvailableGoodsLB" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+                <Button Content="库存刷新" x:Name="RefreshRacksBT" Margin="20,0,0,0" Click="RefreshRacksBT_Click" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <Button Content="导出库存" x:Name="ExportRacksBT" Margin="20,0,0,0" Click="ExportRacksBT_Click" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>
